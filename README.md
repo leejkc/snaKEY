@@ -5,7 +5,7 @@
 - **1** raspberry pi pico / pico2
 - **41** diodes *(1N4148)*
 - **41** switches
-- **3** 2u plate mount stabs
+- **2** 2u plate mount stabs (enter and backspace)
 - **1** 6.25u plate mount stab
 - keycaps
 
