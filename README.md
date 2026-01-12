@@ -1,11 +1,11 @@
 # snaKEY
 
-### 40%, staggered, wired only
+### 50%, staggered, wired only
 
 - **1** raspberry pi pico / pico2
-- **41** diodes *(1N4148)*
-- **41** switches
-- **2** 2u plate mount stabs (enter and backspace)
+- **47** diodes *(1N4148)*
+- **47** switches
+- **1** 2u plate mount stab (enter)
 - **1** 6.25u plate mount stab
 - keycaps
 
