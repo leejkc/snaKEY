@@ -1,5 +1,11 @@
 # snaKEY
 
+## todo list:
+
+- pcb borders
+- lcd/oled display
+- plate/case (3d print or order cnc)
+
 ### 50%, staggered, wired only
 
 - **1** raspberry pi pico / pico2
