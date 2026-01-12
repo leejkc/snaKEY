@@ -2,4 +2,628 @@ INFO: kbplacer_plugin_action.py:70: Plugin version: 0.14
 INFO: kbplacer_plugin_action.py:71: Python version: '3.11.5 (main, Nov  6 2025, 07:48:09) [MSC v.1944 64 bit (AMD64)]'
 INFO: kbplacer_plugin_action.py:72: KiCad version: 9.0.7 with 4.2.2 msw (phoenix) wxWidgets 3.2.8
 INFO: kbplacer_dialog.py:631: Language: en
-INFO: kbplacer_plugin_action.py:88: GUI state: {"layout_path": "C:\\Users\\lee\\Documents\\GitHub\\snaKEY\\keyboard-layout.json", "key_distance": [19.05, 19.05], "key_info": {"annotation_format": "SW{}", "position_option": "Default", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Front"}, "template_path": ""}, "enable_diode_placement": true, "route_switches_with_diodes": false, "optimize_diodes_orientation": false, "diode_info": {"annotation_format": "D{}", "position_option": "Default", "position": {"x": 5.08, "y": 3.03, "orientation": 90.0, "side": "Back"}, "template_path": ""}, "additional_elements": [{"annotation_format": "ST{}", "position_option": "Custom", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Front"}, "template_path": ""}], "route_rows_and_columns": true, "template_path": "C:\\Users\\lee\\Documents\\GitHub\\snaKEY\\snakey\\snakey.kicad_pcb", "generate_outline": true, "outline_delta": 5.0}
+INFO: kbplacer_plugin_action.py:80: GUI state: {"layout_path": "C:\\Users\\lee\\Documents\\GitHub\\snaKEY\\keyboard-layout.json", "key_distance": [19.05, 19.05], "key_info": {"annotation_format": "SW{}", "position_option": "Default", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Front"}, "template_path": ""}, "enable_diode_placement": true, "route_switches_with_diodes": true, "optimize_diodes_orientation": true, "diode_info": {"annotation_format": "D{}", "position_option": "Default", "position": {"x": 5.08, "y": 3.03, "orientation": 90.0, "side": "Back"}, "template_path": ""}, "additional_elements": [{"annotation_format": "ST{}", "position_option": "Custom", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Front"}, "template_path": ""}], "route_rows_and_columns": true, "template_path": "C:\\Users\\lee\\Documents\\GitHub\\snaKEY\\snakey.kicad_pcb", "generate_outline": false, "outline_delta": 5.0}
+DEBUG: key_placer.py:424: Set key 1U distance: 19050000/19050000
+WARNING: key_placer.py:134: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix, switch-by-matrix association can't be used
+DEBUG: key_placer.py:141: Switches by nets: {}
+DEBUG: key_placer.py:145: Diodes by switch: {}
+INFO: kle_serial.py:931: User layout: [['Esc', 'Q', 'W', 'E', 'R', 'T', 'Y', 'U', 'I', 'O', 'P', '{\n[', '}\n]', {'x': 0.25}, 'Del'], [{'w': 1.25}, 'Fn', 'A', 'S', 'D', 'F', 'G', 'H', 'J', 'K', 'L', ':\n;', '"\n\'', {'w': 2}, 'Enter'], [{'w': 1.75}, 'Shift', 'Z', 'X', 'C', 'V', 'B', 'N', 'M', '<\n,', '>\n.', '?\n/', '↑', {'w': 1.5}, '|\n\\'], [{'x': 0.75, 'w': 1.25}, 'Ctrl', {'w': 1.25}, 'Alt', {'a': 7, 'w': 6.25}, '', {'a': 4, 'w': 1.25}, 'Super', '←', '↓', '→']]
+DEBUG: key_placer.py:724: Layout offset: (28575000, 28575000)
+DEBUG: kle_serial.py:990: Layout with: x_ortholinear_keys=16, y_ortholinear_keys=47, rotated_keys=0, encoders=0, iso_enters=0 and unrecognized_shape_keys=0
+DEBUG: kle_serial.py:1015: Layout tagged: [<KeyboardTag.ROW_STAGGERED: 2>]
+DEBUG: board_modifier.py:94: Setting SW1 footprint position: (38100000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW2 footprint position: (57150000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW3 footprint position: (76200000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW4 footprint position: (95250000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW5 footprint position: (114300000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW6 footprint position: (133350000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW7 footprint position: (152400000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW8 footprint position: (171450000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW9 footprint position: (190500000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW10 footprint position: (209550000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW11 footprint position: (228600000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW12 footprint position: (247650000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW13 footprint position: (266700000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW14 footprint position: (290512500, 38100000)
+DEBUG: board_modifier.py:94: Setting SW15 footprint position: (40481250, 57150000)
+DEBUG: board_modifier.py:94: Setting SW16 footprint position: (61912500, 57150000)
+DEBUG: board_modifier.py:94: Setting SW17 footprint position: (80962500, 57150000)
+DEBUG: board_modifier.py:94: Setting SW18 footprint position: (100012500, 57150000)
+DEBUG: board_modifier.py:94: Setting SW19 footprint position: (119062500, 57150000)
+DEBUG: board_modifier.py:94: Setting SW20 footprint position: (138112500, 57150000)
+DEBUG: board_modifier.py:94: Setting SW21 footprint position: (157162500, 57150000)
+DEBUG: board_modifier.py:94: Setting SW22 footprint position: (176212500, 57150000)
+DEBUG: board_modifier.py:94: Setting SW23 footprint position: (195262500, 57150000)
+DEBUG: board_modifier.py:94: Setting SW24 footprint position: (214312500, 57150000)
+DEBUG: board_modifier.py:94: Setting SW25 footprint position: (233362500, 57150000)
+DEBUG: board_modifier.py:94: Setting SW26 footprint position: (252412500, 57150000)
+DEBUG: board_modifier.py:94: Setting SW27 footprint position: (280987500, 57150000)
+DEBUG: board_modifier.py:94: Setting SW28 footprint position: (45243750, 76200000)
+DEBUG: board_modifier.py:94: Setting SW29 footprint position: (71437500, 76200000)
+DEBUG: board_modifier.py:94: Setting SW30 footprint position: (90487500, 76200000)
+DEBUG: board_modifier.py:94: Setting SW31 footprint position: (109537500, 76200000)
+DEBUG: board_modifier.py:94: Setting SW32 footprint position: (128587500, 76200000)
+DEBUG: board_modifier.py:94: Setting SW33 footprint position: (147637500, 76200000)
+DEBUG: board_modifier.py:94: Setting SW34 footprint position: (166687500, 76200000)
+DEBUG: board_modifier.py:94: Setting SW35 footprint position: (185737500, 76200000)
+DEBUG: board_modifier.py:94: Setting SW36 footprint position: (204787500, 76200000)
+DEBUG: board_modifier.py:94: Setting SW37 footprint position: (223837500, 76200000)
+DEBUG: board_modifier.py:94: Setting SW38 footprint position: (242887500, 76200000)
+DEBUG: board_modifier.py:94: Setting SW39 footprint position: (261937500, 76200000)
+DEBUG: board_modifier.py:94: Setting SW40 footprint position: (285750000, 76200000)
+DEBUG: board_modifier.py:94: Setting SW41 footprint position: (54768750, 95250000)
+DEBUG: board_modifier.py:94: Setting SW42 footprint position: (78581250, 95250000)
+DEBUG: board_modifier.py:94: Setting SW43 footprint position: (150018750, 95250000)
+DEBUG: board_modifier.py:94: Setting SW44 footprint position: (221456250, 95250000)
+DEBUG: board_modifier.py:94: Setting SW45 footprint position: (242887500, 95250000)
+DEBUG: board_modifier.py:94: Setting SW46 footprint position: (261937500, 95250000)
+DEBUG: board_modifier.py:94: Setting SW47 footprint position: (280987500, 95250000)
+INFO: key_placer.py:1078: Diode info: [ElementInfo(annotation_format='D{}', position_option=<PositionOption.DEFAULT: 'Default'>, position=ElementPosition(x=5.08, y=3.03, orientation=90.0, side=<Side.BACK: 'Back'>), template_path='')]
+DEBUG: board_modifier.py:107: Getting SW1 footprint position: (38100000, 38100000)
+DEBUG: board_modifier.py:107: Getting SW2 footprint position: (57150000, 38100000)
+DEBUG: board_modifier.py:107: Getting SW3 footprint position: (76200000, 38100000)
+DEBUG: board_modifier.py:107: Getting SW4 footprint position: (95250000, 38100000)
+DEBUG: board_modifier.py:107: Getting SW5 footprint position: (114300000, 38100000)
+DEBUG: board_modifier.py:107: Getting SW6 footprint position: (133350000, 38100000)
+DEBUG: board_modifier.py:107: Getting SW7 footprint position: (152400000, 38100000)
+DEBUG: board_modifier.py:107: Getting SW8 footprint position: (171450000, 38100000)
+DEBUG: board_modifier.py:107: Getting SW9 footprint position: (190500000, 38100000)
+DEBUG: board_modifier.py:107: Getting SW10 footprint position: (209550000, 38100000)
+DEBUG: board_modifier.py:107: Getting SW11 footprint position: (228600000, 38100000)
+DEBUG: board_modifier.py:107: Getting SW12 footprint position: (247650000, 38100000)
+DEBUG: board_modifier.py:107: Getting SW13 footprint position: (266700000, 38100000)
+DEBUG: board_modifier.py:107: Getting SW14 footprint position: (290512500, 38100000)
+DEBUG: board_modifier.py:107: Getting SW15 footprint position: (40481250, 57150000)
+DEBUG: board_modifier.py:107: Getting SW16 footprint position: (61912500, 57150000)
+DEBUG: board_modifier.py:107: Getting SW17 footprint position: (80962500, 57150000)
+DEBUG: board_modifier.py:107: Getting SW18 footprint position: (100012500, 57150000)
+DEBUG: board_modifier.py:107: Getting SW19 footprint position: (119062500, 57150000)
+DEBUG: board_modifier.py:107: Getting SW20 footprint position: (138112500, 57150000)
+DEBUG: board_modifier.py:107: Getting SW21 footprint position: (157162500, 57150000)
+DEBUG: board_modifier.py:107: Getting SW22 footprint position: (176212500, 57150000)
+DEBUG: board_modifier.py:107: Getting SW23 footprint position: (195262500, 57150000)
+DEBUG: board_modifier.py:107: Getting SW24 footprint position: (214312500, 57150000)
+DEBUG: board_modifier.py:107: Getting SW25 footprint position: (233362500, 57150000)
+DEBUG: board_modifier.py:107: Getting SW26 footprint position: (252412500, 57150000)
+DEBUG: board_modifier.py:107: Getting SW27 footprint position: (280987500, 57150000)
+DEBUG: board_modifier.py:107: Getting SW28 footprint position: (45243750, 76200000)
+DEBUG: board_modifier.py:107: Getting SW29 footprint position: (71437500, 76200000)
+DEBUG: board_modifier.py:107: Getting SW30 footprint position: (90487500, 76200000)
+DEBUG: board_modifier.py:107: Getting SW31 footprint position: (109537500, 76200000)
+DEBUG: board_modifier.py:107: Getting SW32 footprint position: (128587500, 76200000)
+DEBUG: board_modifier.py:107: Getting SW33 footprint position: (147637500, 76200000)
+DEBUG: board_modifier.py:107: Getting SW34 footprint position: (166687500, 76200000)
+DEBUG: board_modifier.py:107: Getting SW35 footprint position: (185737500, 76200000)
+DEBUG: board_modifier.py:107: Getting SW36 footprint position: (204787500, 76200000)
+DEBUG: board_modifier.py:107: Getting SW37 footprint position: (223837500, 76200000)
+DEBUG: board_modifier.py:107: Getting SW38 footprint position: (242887500, 76200000)
+DEBUG: board_modifier.py:107: Getting SW39 footprint position: (261937500, 76200000)
+DEBUG: board_modifier.py:107: Getting SW40 footprint position: (285750000, 76200000)
+DEBUG: board_modifier.py:107: Getting SW41 footprint position: (54768750, 95250000)
+DEBUG: board_modifier.py:107: Getting SW42 footprint position: (78581250, 95250000)
+DEBUG: board_modifier.py:107: Getting SW43 footprint position: (150018750, 95250000)
+DEBUG: board_modifier.py:107: Getting SW44 footprint position: (221456250, 95250000)
+DEBUG: board_modifier.py:107: Getting SW45 footprint position: (242887500, 95250000)
+DEBUG: board_modifier.py:107: Getting SW46 footprint position: (261937500, 95250000)
+DEBUG: board_modifier.py:107: Getting SW47 footprint position: (280987500, 95250000)
+DEBUG: key_placer.py:826: Optimizing orientation of SW1 diodes
+DEBUG: key_placer.py:826: Optimizing orientation of SW2 diodes
+DEBUG: key_placer.py:826: Optimizing orientation of SW3 diodes
+DEBUG: key_placer.py:826: Optimizing orientation of SW4 diodes
+DEBUG: key_placer.py:826: Optimizing orientation of SW5 diodes
+DEBUG: key_placer.py:826: Optimizing orientation of SW6 diodes
+DEBUG: key_placer.py:826: Optimizing orientation of SW7 diodes
+DEBUG: key_placer.py:826: Optimizing orientation of SW8 diodes
+DEBUG: key_placer.py:826: Optimizing orientation of SW9 diodes
+DEBUG: key_placer.py:826: Optimizing orientation of SW10 diodes
+DEBUG: key_placer.py:826: Optimizing orientation of SW11 diodes
+DEBUG: key_placer.py:826: Optimizing orientation of SW12 diodes
+DEBUG: key_placer.py:826: Optimizing orientation of SW13 diodes
+DEBUG: key_placer.py:826: Optimizing orientation of SW14 diodes
+DEBUG: key_placer.py:826: Optimizing orientation of SW15 diodes
+DEBUG: key_placer.py:826: Optimizing orientation of SW16 diodes
+DEBUG: key_placer.py:826: Optimizing orientation of SW17 diodes
+DEBUG: key_placer.py:826: Optimizing orientation of SW18 diodes
+DEBUG: key_placer.py:826: Optimizing orientation of SW19 diodes
+DEBUG: key_placer.py:826: Optimizing orientation of SW20 diodes
+DEBUG: key_placer.py:826: Optimizing orientation of SW21 diodes
+DEBUG: key_placer.py:826: Optimizing orientation of SW22 diodes
+DEBUG: key_placer.py:826: Optimizing orientation of SW23 diodes
+DEBUG: key_placer.py:826: Optimizing orientation of SW24 diodes
+DEBUG: key_placer.py:826: Optimizing orientation of SW25 diodes
+DEBUG: key_placer.py:826: Optimizing orientation of SW26 diodes
+DEBUG: key_placer.py:826: Optimizing orientation of SW27 diodes
+DEBUG: key_placer.py:826: Optimizing orientation of SW28 diodes
+DEBUG: key_placer.py:826: Optimizing orientation of SW29 diodes
+DEBUG: key_placer.py:826: Optimizing orientation of SW30 diodes
+DEBUG: key_placer.py:826: Optimizing orientation of SW31 diodes
+DEBUG: key_placer.py:826: Optimizing orientation of SW32 diodes
+DEBUG: key_placer.py:826: Optimizing orientation of SW33 diodes
+DEBUG: key_placer.py:826: Optimizing orientation of SW34 diodes
+DEBUG: key_placer.py:826: Optimizing orientation of SW35 diodes
+DEBUG: key_placer.py:826: Optimizing orientation of SW36 diodes
+DEBUG: key_placer.py:826: Optimizing orientation of SW37 diodes
+DEBUG: key_placer.py:826: Optimizing orientation of SW38 diodes
+DEBUG: key_placer.py:826: Optimizing orientation of SW39 diodes
+DEBUG: key_placer.py:826: Optimizing orientation of SW40 diodes
+DEBUG: key_placer.py:826: Optimizing orientation of SW41 diodes
+DEBUG: key_placer.py:826: Optimizing orientation of SW42 diodes
+DEBUG: key_placer.py:826: Optimizing orientation of SW43 diodes
+DEBUG: key_placer.py:826: Optimizing orientation of SW44 diodes
+DEBUG: key_placer.py:826: Optimizing orientation of SW45 diodes
+DEBUG: key_placer.py:826: Optimizing orientation of SW46 diodes
+DEBUG: key_placer.py:826: Optimizing orientation of SW47 diodes
+DEBUG: key_placer.py:854: Placing additional elements for SW47
+DEBUG: board_modifier.py:107: Getting SW47 footprint position: (280987500, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional ST47 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW46
+DEBUG: board_modifier.py:107: Getting SW46 footprint position: (261937500, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional ST46 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW45
+DEBUG: board_modifier.py:107: Getting SW45 footprint position: (242887500, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional ST45 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW44
+DEBUG: board_modifier.py:107: Getting SW44 footprint position: (221456250, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional ST44 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW43
+DEBUG: board_modifier.py:107: Getting SW43 footprint position: (150018750, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional ST43 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW42
+DEBUG: board_modifier.py:107: Getting SW42 footprint position: (78581250, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional ST42 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW41
+DEBUG: board_modifier.py:107: Getting SW41 footprint position: (54768750, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional ST41 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW40
+DEBUG: board_modifier.py:107: Getting SW40 footprint position: (285750000, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional ST40 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW39
+DEBUG: board_modifier.py:107: Getting SW39 footprint position: (261937500, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional ST39 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW38
+DEBUG: board_modifier.py:107: Getting SW38 footprint position: (242887500, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional ST38 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW37
+DEBUG: board_modifier.py:107: Getting SW37 footprint position: (223837500, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional ST37 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW36
+DEBUG: board_modifier.py:107: Getting SW36 footprint position: (204787500, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional ST36 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW35
+DEBUG: board_modifier.py:107: Getting SW35 footprint position: (185737500, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional ST35 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW34
+DEBUG: board_modifier.py:107: Getting SW34 footprint position: (166687500, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional ST34 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW33
+DEBUG: board_modifier.py:107: Getting SW33 footprint position: (147637500, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional ST33 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW32
+DEBUG: board_modifier.py:107: Getting SW32 footprint position: (128587500, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional ST32 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW31
+DEBUG: board_modifier.py:107: Getting SW31 footprint position: (109537500, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional ST31 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW30
+DEBUG: board_modifier.py:107: Getting SW30 footprint position: (90487500, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional ST30 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW29
+DEBUG: board_modifier.py:107: Getting SW29 footprint position: (71437500, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional ST29 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW28
+DEBUG: board_modifier.py:107: Getting SW28 footprint position: (45243750, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional ST28 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW27
+DEBUG: board_modifier.py:107: Getting SW27 footprint position: (280987500, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional ST27 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW26
+DEBUG: board_modifier.py:107: Getting SW26 footprint position: (252412500, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional ST26 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW25
+DEBUG: board_modifier.py:107: Getting SW25 footprint position: (233362500, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional ST25 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW24
+DEBUG: board_modifier.py:107: Getting SW24 footprint position: (214312500, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional ST24 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW23
+DEBUG: board_modifier.py:107: Getting SW23 footprint position: (195262500, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional ST23 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW22
+DEBUG: board_modifier.py:107: Getting SW22 footprint position: (176212500, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional ST22 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW21
+DEBUG: board_modifier.py:107: Getting SW21 footprint position: (157162500, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional ST21 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW20
+DEBUG: board_modifier.py:107: Getting SW20 footprint position: (138112500, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional ST20 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW19
+DEBUG: board_modifier.py:107: Getting SW19 footprint position: (119062500, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional ST19 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW18
+DEBUG: board_modifier.py:107: Getting SW18 footprint position: (100012500, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional ST18 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW17
+DEBUG: board_modifier.py:107: Getting SW17 footprint position: (80962500, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional ST17 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW16
+DEBUG: board_modifier.py:107: Getting SW16 footprint position: (61912500, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional ST16 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW15
+DEBUG: board_modifier.py:107: Getting SW15 footprint position: (40481250, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional ST15 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW14
+DEBUG: board_modifier.py:107: Getting SW14 footprint position: (290512500, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST14 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW13
+DEBUG: board_modifier.py:107: Getting SW13 footprint position: (266700000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST13 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW12
+DEBUG: board_modifier.py:107: Getting SW12 footprint position: (247650000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST12 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW11
+DEBUG: board_modifier.py:107: Getting SW11 footprint position: (228600000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST11 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW10
+DEBUG: board_modifier.py:107: Getting SW10 footprint position: (209550000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST10 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW9
+DEBUG: board_modifier.py:107: Getting SW9 footprint position: (190500000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST9 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW8
+DEBUG: board_modifier.py:107: Getting SW8 footprint position: (171450000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST8 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW7
+DEBUG: board_modifier.py:107: Getting SW7 footprint position: (152400000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST7 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW6
+DEBUG: board_modifier.py:107: Getting SW6 footprint position: (133350000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST6 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW5
+DEBUG: board_modifier.py:107: Getting SW5 footprint position: (114300000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST5 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW4
+DEBUG: board_modifier.py:107: Getting SW4 footprint position: (95250000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST4 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW3
+DEBUG: board_modifier.py:107: Getting SW3 footprint position: (76200000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST3 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW2
+DEBUG: board_modifier.py:107: Getting SW2 footprint position: (57150000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST2 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW1
+DEBUG: board_modifier.py:107: Getting SW1 footprint position: (38100000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST1 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+INFO: key_placer.py:520: Removing dangling tracks
+DEBUG: board_modifier.py:73: Searching for SW47 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting SW47 footprint position: (280987500, 95250000)
+DEBUG: board_modifier.py:94: Setting SW47 footprint position: (280987500, 95250000)
+DEBUG: board_modifier.py:73: Searching for SW46 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting SW46 footprint position: (261937500, 95250000)
+DEBUG: board_modifier.py:94: Setting SW46 footprint position: (261937500, 95250000)
+DEBUG: board_modifier.py:73: Searching for SW45 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting SW45 footprint position: (242887500, 95250000)
+DEBUG: board_modifier.py:94: Setting SW45 footprint position: (242887500, 95250000)
+DEBUG: board_modifier.py:73: Searching for SW44 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting SW44 footprint position: (221456250, 95250000)
+DEBUG: board_modifier.py:94: Setting SW44 footprint position: (221456250, 95250000)
+DEBUG: board_modifier.py:73: Searching for SW43 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting SW43 footprint position: (150018750, 95250000)
+DEBUG: board_modifier.py:94: Setting SW43 footprint position: (150018750, 95250000)
+DEBUG: board_modifier.py:73: Searching for SW42 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting SW42 footprint position: (78581250, 95250000)
+DEBUG: board_modifier.py:94: Setting SW42 footprint position: (78581250, 95250000)
+DEBUG: board_modifier.py:73: Searching for SW41 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting SW41 footprint position: (54768750, 95250000)
+DEBUG: board_modifier.py:94: Setting SW41 footprint position: (54768750, 95250000)
+DEBUG: board_modifier.py:73: Searching for SW40 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting SW40 footprint position: (285750000, 76200000)
+DEBUG: board_modifier.py:94: Setting SW40 footprint position: (285750000, 76200000)
+DEBUG: board_modifier.py:73: Searching for SW39 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting SW39 footprint position: (261937500, 76200000)
+DEBUG: board_modifier.py:94: Setting SW39 footprint position: (261937500, 76200000)
+DEBUG: board_modifier.py:73: Searching for SW38 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting SW38 footprint position: (242887500, 76200000)
+DEBUG: board_modifier.py:94: Setting SW38 footprint position: (242887500, 76200000)
+DEBUG: board_modifier.py:73: Searching for SW37 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting SW37 footprint position: (223837500, 76200000)
+DEBUG: board_modifier.py:94: Setting SW37 footprint position: (223837500, 76200000)
+DEBUG: board_modifier.py:73: Searching for SW36 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting SW36 footprint position: (204787500, 76200000)
+DEBUG: board_modifier.py:94: Setting SW36 footprint position: (204787500, 76200000)
+DEBUG: board_modifier.py:73: Searching for SW35 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting SW35 footprint position: (185737500, 76200000)
+DEBUG: board_modifier.py:94: Setting SW35 footprint position: (185737500, 76200000)
+DEBUG: board_modifier.py:73: Searching for SW34 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting SW34 footprint position: (166687500, 76200000)
+DEBUG: board_modifier.py:94: Setting SW34 footprint position: (166687500, 76200000)
+DEBUG: board_modifier.py:73: Searching for SW33 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting SW33 footprint position: (147637500, 76200000)
+DEBUG: board_modifier.py:94: Setting SW33 footprint position: (147637500, 76200000)
+DEBUG: board_modifier.py:73: Searching for SW32 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting SW32 footprint position: (128587500, 76200000)
+DEBUG: board_modifier.py:94: Setting SW32 footprint position: (128587500, 76200000)
+DEBUG: board_modifier.py:73: Searching for SW31 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting SW31 footprint position: (109537500, 76200000)
+DEBUG: board_modifier.py:94: Setting SW31 footprint position: (109537500, 76200000)
+DEBUG: board_modifier.py:73: Searching for SW30 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting SW30 footprint position: (90487500, 76200000)
+DEBUG: board_modifier.py:94: Setting SW30 footprint position: (90487500, 76200000)
+DEBUG: board_modifier.py:73: Searching for SW29 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting SW29 footprint position: (71437500, 76200000)
+DEBUG: board_modifier.py:94: Setting SW29 footprint position: (71437500, 76200000)
+DEBUG: board_modifier.py:73: Searching for SW28 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting SW28 footprint position: (45243750, 76200000)
+DEBUG: board_modifier.py:94: Setting SW28 footprint position: (45243750, 76200000)
+DEBUG: board_modifier.py:73: Searching for SW27 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting SW27 footprint position: (280987500, 57150000)
+DEBUG: board_modifier.py:94: Setting SW27 footprint position: (280987500, 57150000)
+DEBUG: board_modifier.py:73: Searching for SW26 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting SW26 footprint position: (252412500, 57150000)
+DEBUG: board_modifier.py:94: Setting SW26 footprint position: (252412500, 57150000)
+DEBUG: board_modifier.py:73: Searching for SW25 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting SW25 footprint position: (233362500, 57150000)
+DEBUG: board_modifier.py:94: Setting SW25 footprint position: (233362500, 57150000)
+DEBUG: board_modifier.py:73: Searching for SW24 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting SW24 footprint position: (214312500, 57150000)
+DEBUG: board_modifier.py:94: Setting SW24 footprint position: (214312500, 57150000)
+DEBUG: board_modifier.py:73: Searching for SW23 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting SW23 footprint position: (195262500, 57150000)
+DEBUG: board_modifier.py:94: Setting SW23 footprint position: (195262500, 57150000)
+DEBUG: board_modifier.py:73: Searching for SW22 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting SW22 footprint position: (176212500, 57150000)
+DEBUG: board_modifier.py:94: Setting SW22 footprint position: (176212500, 57150000)
+DEBUG: board_modifier.py:73: Searching for SW21 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting SW21 footprint position: (157162500, 57150000)
+DEBUG: board_modifier.py:94: Setting SW21 footprint position: (157162500, 57150000)
+DEBUG: board_modifier.py:73: Searching for SW20 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting SW20 footprint position: (138112500, 57150000)
+DEBUG: board_modifier.py:94: Setting SW20 footprint position: (138112500, 57150000)
+DEBUG: board_modifier.py:73: Searching for SW19 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting SW19 footprint position: (119062500, 57150000)
+DEBUG: board_modifier.py:94: Setting SW19 footprint position: (119062500, 57150000)
+DEBUG: board_modifier.py:73: Searching for SW18 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting SW18 footprint position: (100012500, 57150000)
+DEBUG: board_modifier.py:94: Setting SW18 footprint position: (100012500, 57150000)
+DEBUG: board_modifier.py:73: Searching for SW17 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting SW17 footprint position: (80962500, 57150000)
+DEBUG: board_modifier.py:94: Setting SW17 footprint position: (80962500, 57150000)
+DEBUG: board_modifier.py:73: Searching for SW16 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting SW16 footprint position: (61912500, 57150000)
+DEBUG: board_modifier.py:94: Setting SW16 footprint position: (61912500, 57150000)
+DEBUG: board_modifier.py:73: Searching for SW15 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting SW15 footprint position: (40481250, 57150000)
+DEBUG: board_modifier.py:94: Setting SW15 footprint position: (40481250, 57150000)
+DEBUG: board_modifier.py:73: Searching for SW14 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting SW14 footprint position: (290512500, 38100000)
+DEBUG: board_modifier.py:94: Setting SW14 footprint position: (290512500, 38100000)
+DEBUG: board_modifier.py:73: Searching for SW13 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting SW13 footprint position: (266700000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW13 footprint position: (266700000, 38100000)
+DEBUG: board_modifier.py:73: Searching for SW12 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting SW12 footprint position: (247650000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW12 footprint position: (247650000, 38100000)
+DEBUG: board_modifier.py:73: Searching for SW11 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting SW11 footprint position: (228600000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW11 footprint position: (228600000, 38100000)
+DEBUG: board_modifier.py:73: Searching for SW10 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting SW10 footprint position: (209550000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW10 footprint position: (209550000, 38100000)
+DEBUG: board_modifier.py:73: Searching for SW9 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting SW9 footprint position: (190500000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW9 footprint position: (190500000, 38100000)
+DEBUG: board_modifier.py:73: Searching for SW8 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting SW8 footprint position: (171450000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW8 footprint position: (171450000, 38100000)
+DEBUG: board_modifier.py:73: Searching for SW7 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting SW7 footprint position: (152400000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW7 footprint position: (152400000, 38100000)
+DEBUG: board_modifier.py:73: Searching for SW6 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting SW6 footprint position: (133350000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW6 footprint position: (133350000, 38100000)
+DEBUG: board_modifier.py:73: Searching for SW5 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting SW5 footprint position: (114300000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW5 footprint position: (114300000, 38100000)
+DEBUG: board_modifier.py:73: Searching for SW4 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting SW4 footprint position: (95250000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW4 footprint position: (95250000, 38100000)
+DEBUG: board_modifier.py:73: Searching for SW3 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting SW3 footprint position: (76200000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW3 footprint position: (76200000, 38100000)
+DEBUG: board_modifier.py:73: Searching for SW2 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting SW2 footprint position: (57150000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW2 footprint position: (57150000, 38100000)
+DEBUG: board_modifier.py:73: Searching for SW1 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting SW1 footprint position: (38100000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW1 footprint position: (38100000, 38100000)
+DEBUG: board_modifier.py:73: Searching for D47 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting D47 footprint position: (275000000, 148050000)
+DEBUG: board_modifier.py:94: Setting D47 footprint position: (275000000, 148050000)
+DEBUG: board_modifier.py:73: Searching for D46 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting D46 footprint position: (275000000, 144500000)
+DEBUG: board_modifier.py:94: Setting D46 footprint position: (275000000, 144500000)
+DEBUG: board_modifier.py:73: Searching for D45 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting D45 footprint position: (275000000, 140950000)
+DEBUG: board_modifier.py:94: Setting D45 footprint position: (275000000, 140950000)
+DEBUG: board_modifier.py:73: Searching for D44 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting D44 footprint position: (275000000, 137400000)
+DEBUG: board_modifier.py:94: Setting D44 footprint position: (275000000, 137400000)
+DEBUG: board_modifier.py:73: Searching for D43 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting D43 footprint position: (275000000, 133850000)
+DEBUG: board_modifier.py:94: Setting D43 footprint position: (275000000, 133850000)
+DEBUG: board_modifier.py:73: Searching for D42 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting D42 footprint position: (275000000, 130300000)
+DEBUG: board_modifier.py:94: Setting D42 footprint position: (275000000, 130300000)
+DEBUG: board_modifier.py:73: Searching for D41 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting D41 footprint position: (275000000, 126750000)
+DEBUG: board_modifier.py:94: Setting D41 footprint position: (275000000, 126750000)
+DEBUG: board_modifier.py:73: Searching for D40 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting D40 footprint position: (275000000, 123200000)
+DEBUG: board_modifier.py:94: Setting D40 footprint position: (275000000, 123200000)
+DEBUG: board_modifier.py:73: Searching for D39 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting D39 footprint position: (275000000, 119650000)
+DEBUG: board_modifier.py:94: Setting D39 footprint position: (275000000, 119650000)
+DEBUG: board_modifier.py:73: Searching for D38 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting D38 footprint position: (275000000, 116100000)
+DEBUG: board_modifier.py:94: Setting D38 footprint position: (275000000, 116100000)
+DEBUG: board_modifier.py:73: Searching for D37 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting D37 footprint position: (275000000, 112550000)
+DEBUG: board_modifier.py:94: Setting D37 footprint position: (275000000, 112550000)
+DEBUG: board_modifier.py:73: Searching for D36 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting D36 footprint position: (264230000, 151600000)
+DEBUG: board_modifier.py:94: Setting D36 footprint position: (264230000, 151600000)
+DEBUG: board_modifier.py:73: Searching for D35 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting D35 footprint position: (264230000, 148050000)
+DEBUG: board_modifier.py:94: Setting D35 footprint position: (264230000, 148050000)
+DEBUG: board_modifier.py:73: Searching for D34 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting D34 footprint position: (264230000, 144500000)
+DEBUG: board_modifier.py:94: Setting D34 footprint position: (264230000, 144500000)
+DEBUG: board_modifier.py:73: Searching for D33 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting D33 footprint position: (264230000, 140950000)
+DEBUG: board_modifier.py:94: Setting D33 footprint position: (264230000, 140950000)
+DEBUG: board_modifier.py:73: Searching for D32 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting D32 footprint position: (264230000, 137400000)
+DEBUG: board_modifier.py:94: Setting D32 footprint position: (264230000, 137400000)
+DEBUG: board_modifier.py:73: Searching for D31 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting D31 footprint position: (264230000, 133850000)
+DEBUG: board_modifier.py:94: Setting D31 footprint position: (264230000, 133850000)
+DEBUG: board_modifier.py:73: Searching for D30 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting D30 footprint position: (264230000, 130300000)
+DEBUG: board_modifier.py:94: Setting D30 footprint position: (264230000, 130300000)
+DEBUG: board_modifier.py:73: Searching for D29 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting D29 footprint position: (264230000, 126750000)
+DEBUG: board_modifier.py:94: Setting D29 footprint position: (264230000, 126750000)
+DEBUG: board_modifier.py:73: Searching for D28 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting D28 footprint position: (264230000, 123200000)
+DEBUG: board_modifier.py:94: Setting D28 footprint position: (264230000, 123200000)
+DEBUG: board_modifier.py:73: Searching for D27 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting D27 footprint position: (264230000, 119650000)
+DEBUG: board_modifier.py:94: Setting D27 footprint position: (264230000, 119650000)
+DEBUG: board_modifier.py:73: Searching for D26 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting D26 footprint position: (264230000, 116100000)
+DEBUG: board_modifier.py:94: Setting D26 footprint position: (264230000, 116100000)
+DEBUG: board_modifier.py:73: Searching for D25 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting D25 footprint position: (264230000, 112550000)
+DEBUG: board_modifier.py:94: Setting D25 footprint position: (264230000, 112550000)
+DEBUG: board_modifier.py:73: Searching for D24 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting D24 footprint position: (253460000, 151600000)
+DEBUG: board_modifier.py:94: Setting D24 footprint position: (253460000, 151600000)
+DEBUG: board_modifier.py:73: Searching for D23 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting D23 footprint position: (253460000, 148050000)
+DEBUG: board_modifier.py:94: Setting D23 footprint position: (253460000, 148050000)
+DEBUG: board_modifier.py:73: Searching for D22 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting D22 footprint position: (253460000, 144500000)
+DEBUG: board_modifier.py:94: Setting D22 footprint position: (253460000, 144500000)
+DEBUG: board_modifier.py:73: Searching for D21 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting D21 footprint position: (253460000, 140950000)
+DEBUG: board_modifier.py:94: Setting D21 footprint position: (253460000, 140950000)
+DEBUG: board_modifier.py:73: Searching for D20 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting D20 footprint position: (253460000, 137400000)
+DEBUG: board_modifier.py:94: Setting D20 footprint position: (253460000, 137400000)
+DEBUG: board_modifier.py:73: Searching for D19 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting D19 footprint position: (253460000, 133850000)
+DEBUG: board_modifier.py:94: Setting D19 footprint position: (253460000, 133850000)
+DEBUG: board_modifier.py:73: Searching for D18 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting D18 footprint position: (253460000, 130300000)
+DEBUG: board_modifier.py:94: Setting D18 footprint position: (253460000, 130300000)
+DEBUG: board_modifier.py:73: Searching for D17 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting D17 footprint position: (253460000, 126750000)
+DEBUG: board_modifier.py:94: Setting D17 footprint position: (253460000, 126750000)
+DEBUG: board_modifier.py:73: Searching for D16 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting D16 footprint position: (253460000, 123200000)
+DEBUG: board_modifier.py:94: Setting D16 footprint position: (253460000, 123200000)
+DEBUG: board_modifier.py:73: Searching for D15 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting D15 footprint position: (253460000, 119650000)
+DEBUG: board_modifier.py:94: Setting D15 footprint position: (253460000, 119650000)
+DEBUG: board_modifier.py:73: Searching for D14 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting D14 footprint position: (253460000, 116100000)
+DEBUG: board_modifier.py:94: Setting D14 footprint position: (253460000, 116100000)
+DEBUG: board_modifier.py:73: Searching for D13 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting D13 footprint position: (253460000, 112550000)
+DEBUG: board_modifier.py:94: Setting D13 footprint position: (253460000, 112550000)
+DEBUG: board_modifier.py:73: Searching for D12 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting D12 footprint position: (242690000, 151600000)
+DEBUG: board_modifier.py:94: Setting D12 footprint position: (242690000, 151600000)
+DEBUG: board_modifier.py:73: Searching for D11 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting D11 footprint position: (242690000, 148050000)
+DEBUG: board_modifier.py:94: Setting D11 footprint position: (242690000, 148050000)
+DEBUG: board_modifier.py:73: Searching for D10 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting D10 footprint position: (242690000, 144500000)
+DEBUG: board_modifier.py:94: Setting D10 footprint position: (242690000, 144500000)
+DEBUG: board_modifier.py:73: Searching for D9 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting D9 footprint position: (242690000, 140950000)
+DEBUG: board_modifier.py:94: Setting D9 footprint position: (242690000, 140950000)
+DEBUG: board_modifier.py:73: Searching for D8 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting D8 footprint position: (242690000, 137400000)
+DEBUG: board_modifier.py:94: Setting D8 footprint position: (242690000, 137400000)
+DEBUG: board_modifier.py:73: Searching for D7 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting D7 footprint position: (242690000, 133850000)
+DEBUG: board_modifier.py:94: Setting D7 footprint position: (242690000, 133850000)
+DEBUG: board_modifier.py:73: Searching for D6 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting D6 footprint position: (242690000, 130300000)
+DEBUG: board_modifier.py:94: Setting D6 footprint position: (242690000, 130300000)
+DEBUG: board_modifier.py:73: Searching for D5 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting D5 footprint position: (242690000, 126750000)
+DEBUG: board_modifier.py:94: Setting D5 footprint position: (242690000, 126750000)
+DEBUG: board_modifier.py:73: Searching for D4 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting D4 footprint position: (242690000, 123200000)
+DEBUG: board_modifier.py:94: Setting D4 footprint position: (242690000, 123200000)
+DEBUG: board_modifier.py:73: Searching for D3 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting D3 footprint position: (242690000, 119650000)
+DEBUG: board_modifier.py:94: Setting D3 footprint position: (242690000, 119650000)
+DEBUG: board_modifier.py:73: Searching for D2 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting D2 footprint position: (242690000, 116100000)
+DEBUG: board_modifier.py:94: Setting D2 footprint position: (242690000, 116100000)
+DEBUG: board_modifier.py:73: Searching for D1 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting D1 footprint position: (242690000, 112550000)
+DEBUG: board_modifier.py:94: Setting D1 footprint position: (242690000, 112550000)
+DEBUG: board_modifier.py:73: Searching for A1 footprint in C:\Users\lee\Documents\GitHub\snaKEY\snakey.kicad_pcb
+DEBUG: board_modifier.py:107: Getting A1 footprint position: (298260000, 139165000)
+DEBUG: board_modifier.py:94: Setting A1 footprint position: (298260000, 139165000)

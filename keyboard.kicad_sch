@@ -5,6 +5,173 @@
 	(uuid "1eb2e04a-353f-4c9c-aae7-88e67904211c")
 	(paper "A4")
 	(lib_symbols
+		(symbol "1N4148_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4148"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "100V 0.15A standard switching diode, DO-35"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?35*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N4148_1_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4148_1_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Diode:1N4148"
 			(pin_numbers
 				(hide yes)
@@ -162,6 +329,205 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SW_MEC_5G_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_MEC_5G"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "MEC 5G single pole normally-open tactile switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SW*MEC*5G*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_MEC_5G_1_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SW_MEC_5G_1_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(hide yes)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(hide yes)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -373,76 +739,76 @@
 		)
 	)
 	(junction
+		(at 124.46 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0010f5c7-3252-4965-85a3-607a328eb460")
+	)
+	(junction
+		(at 143.51 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00274e44-42f2-40ad-8fff-c0984c2e56cd")
+	)
+	(junction
+		(at 44.45 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "037a7bc9-e190-43a5-9fee-fcbb155b7774")
+	)
+	(junction
+		(at 58.42 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "076f6c9f-1ab5-490f-884f-3edfa515b775")
+	)
+	(junction
 		(at 33.02 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "019b8389-38a1-472a-9048-23e06e389800")
+		(uuid "0a966374-7ef1-4988-809b-c454db964013")
 	)
 	(junction
-		(at 110.49 45.72)
+		(at 90.17 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "05dc75c0-7fc9-4b22-81ee-d520ec03d6c3")
+		(uuid "0a9c0b7d-9798-4758-80db-855c3dc6a2e0")
 	)
 	(junction
-		(at 215.9 62.23)
+		(at 196.85 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "077ca323-7a9a-4c71-862d-b6d99997d887")
+		(uuid "0f4e29d6-b260-4dca-b24a-b8cece39da18")
 	)
 	(junction
-		(at 195.58 45.72)
+		(at 133.35 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0d25d386-090c-4fe1-ac79-eca02a3faf6e")
+		(uuid "143d4007-9217-4735-96df-e15f4e86434d")
 	)
 	(junction
-		(at 57.15 96.52)
+		(at 179.07 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "10fcf33e-e311-40e6-98cb-3c5bc5bf825b")
+		(uuid "1ab03c64-7c07-4be9-b563-ea891396b709")
 	)
 	(junction
-		(at 80.01 62.23)
+		(at 60.96 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "15229320-ed37-4c0c-96b9-043481bff624")
+		(uuid "2222b80f-e504-4358-bf8a-21216e6e30ae")
 	)
 	(junction
-		(at 177.8 45.72)
+		(at 128.27 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "16ea0711-332e-4f2d-b228-aa59f1bcf676")
+		(uuid "23cc0fd2-d9c6-4cfd-afa8-f1ab4e688908")
 	)
 	(junction
-		(at 212.09 45.72)
+		(at 45.72 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1842a9a2-e2bc-4cee-92a8-c7bee1b97cbf")
-	)
-	(junction
-		(at 157.48 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1a957a64-40a3-4234-9def-4a75d908a7f0")
-	)
-	(junction
-		(at 173.99 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "20dc5fa2-0d53-44c6-a96d-b3bff9a3b921")
-	)
-	(junction
-		(at 132.08 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "29335879-7ad0-4686-bce0-9709bd6da1cd")
-	)
-	(junction
-		(at 59.69 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2936977c-dbb8-4156-8fc7-408b559f712f")
+		(uuid "2e424388-15b4-4f4e-9ed8-edb3dab2b041")
 	)
 	(junction
 		(at 69.85 54.61)
@@ -451,16 +817,16 @@
 		(uuid "2fd1aaa3-7790-48c0-9a9d-e689b4cbaa0a")
 	)
 	(junction
-		(at 205.74 96.52)
+		(at 242.57 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3233ae54-ac50-4169-af75-c397d593a715")
+		(uuid "35523d8e-8bb5-4446-aca4-7ed884ad27ae")
 	)
 	(junction
-		(at 106.68 80.01)
+		(at 81.28 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "32d209d6-0541-4f0b-8ab7-4ab9d84763be")
+		(uuid "363f3f38-d601-460a-a176-9de986010cfe")
 	)
 	(junction
 		(at 49.53 38.1)
@@ -481,28 +847,16 @@
 		(uuid "42eba449-6e61-4f86-bad9-28cda4879cfa")
 	)
 	(junction
-		(at 44.45 62.23)
+		(at 209.55 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "47df0f50-b05c-4810-900a-5667f35b451e")
+		(uuid "4af76efc-3160-4df6-8aae-86212aefc80a")
 	)
 	(junction
-		(at 48.26 80.01)
+		(at 140.97 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4a303ebd-5f45-4182-a23b-19853c545a6c")
-	)
-	(junction
-		(at 139.7 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4d234d05-4ecc-48dc-bcae-5f052844baea")
-	)
-	(junction
-		(at 127 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "513f34a2-7ca8-4344-b1d8-66e579a68076")
+		(uuid "53dc34ea-5afd-4788-bec3-272c8b20b6bf")
 	)
 	(junction
 		(at 34.29 54.61)
@@ -511,28 +865,40 @@
 		(uuid "5aea1b78-ccff-444b-a9e4-047cdabc4b45")
 	)
 	(junction
-		(at 224.79 80.01)
+		(at 49.53 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5ef096cf-60ad-4ab3-9b9a-94bd1d5f53cb")
+		(uuid "6839d426-c1d9-4b4b-a7b0-6c663ad86d1a")
 	)
 	(junction
-		(at 161.29 45.72)
+		(at 73.66 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "62983756-c38c-459e-8d46-25b2c951bdf7")
-	)
-	(junction
-		(at 182.88 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "68bbfbb5-92c3-42a7-8bef-42c6d7299949")
+		(uuid "6e0bb54c-8a07-4072-901a-da20b18dcb27")
 	)
 	(junction
 		(at 223.52 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7074a547-f347-4144-a388-8ee7871908e4")
+	)
+	(junction
+		(at 234.95 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c270733-ff78-4545-a8a1-5b21cb78d674")
+	)
+	(junction
+		(at 146.05 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c674f65-b11c-40a2-82f6-8a819767039f")
+	)
+	(junction
+		(at 247.65 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7cb5556e-dde7-453f-adf6-2ba5bab2fdf5")
 	)
 	(junction
 		(at 201.93 38.1)
@@ -547,22 +913,10 @@
 		(uuid "803389ac-3f27-4011-8605-e72412b29a68")
 	)
 	(junction
-		(at 246.38 45.72)
+		(at 226.06 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8103f9a5-f9d3-4f3b-8d56-efb315896a23")
-	)
-	(junction
-		(at 165.1 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "85a730d8-a2e3-41ab-8374-1716e4ff147c")
-	)
-	(junction
-		(at 63.5 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "879d4811-be07-4b92-84b7-8d499937e312")
+		(uuid "81b96484-b10e-417e-b9a2-ce1b6c1fec70")
 	)
 	(junction
 		(at 154.94 54.61)
@@ -571,10 +925,34 @@
 		(uuid "89b93aa0-c51f-4611-a87e-502bf21e19aa")
 	)
 	(junction
-		(at 241.3 96.52)
+		(at 107.95 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "91b4beae-411e-4ad1-840a-484e02939081")
+		(uuid "8daba51d-0a45-424a-9f3b-60ef1cbeb7bc")
+	)
+	(junction
+		(at 191.77 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92f86e75-a82c-4651-a781-956bb0c8b53f")
+	)
+	(junction
+		(at 217.17 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94d42a86-2d33-420d-8beb-91a7703e0bdf")
+	)
+	(junction
+		(at 158.75 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "963ec7cd-187d-455c-998b-d39d0f1c6dc3")
+	)
+	(junction
+		(at 175.26 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98239c10-1c8f-4f11-a74d-04358c63bec7")
 	)
 	(junction
 		(at 138.43 54.61)
@@ -583,16 +961,10 @@
 		(uuid "98faa653-b22c-402e-91b0-1b57b6639eaa")
 	)
 	(junction
-		(at 123.19 80.01)
+		(at 229.87 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9a2b42b0-8737-4784-95de-b970ea068e67")
-	)
-	(junction
-		(at 241.3 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9aca1df5-cc21-44bf-87b2-257114186a19")
+		(uuid "999be9ea-7b90-4a93-af11-8717d4171233")
 	)
 	(junction
 		(at 151.13 38.1)
@@ -601,10 +973,28 @@
 		(uuid "9af09e4f-487a-461c-a8c0-7b5a22a86fd9")
 	)
 	(junction
+		(at 99.06 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b28b35c-5c22-4ee2-86b4-a3df4c521442")
+	)
+	(junction
+		(at 64.77 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b8739ae-0971-4597-9b26-306c8258de3a")
+	)
+	(junction
 		(at 167.64 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9bb80dd0-7d57-46be-84de-dc5392c48677")
+	)
+	(junction
+		(at 226.06 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c76f287-6b5b-40b6-8c89-55c8b275fee6")
 	)
 	(junction
 		(at 104.14 54.61)
@@ -619,34 +1009,16 @@
 		(uuid "a4789d74-fad9-4e0f-840c-d4ae24c5381c")
 	)
 	(junction
-		(at 43.18 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a6e0a54e-7c1d-4284-b801-15329946a74d")
-	)
-	(junction
 		(at 129.54 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a79e2c96-81f1-4d40-8a11-a256c1ad2b30")
 	)
 	(junction
-		(at 233.68 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a9705294-0b24-4642-834c-441502c3ee14")
-	)
-	(junction
 		(at 185.42 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ad5bcb52-5287-43ab-94cc-b055c49eb144")
-	)
-	(junction
-		(at 142.24 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ade1beed-5093-4fcb-a955-8a1fe2756219")
 	)
 	(junction
 		(at 53.34 54.61)
@@ -661,16 +1033,28 @@
 		(uuid "b14906d9-e7f7-46b5-983b-a2bf9628b3db")
 	)
 	(junction
-		(at 72.39 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b25840ee-1f81-4e20-86fb-031b5a2486e7")
-	)
-	(junction
 		(at 252.73 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b4fdfb19-580a-43df-8edf-594d23755ec9")
+	)
+	(junction
+		(at 95.25 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b508db93-7a1a-4027-9b04-15cfd5063c9a")
+	)
+	(junction
+		(at 115.57 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b74a9135-e676-4e01-8b6b-c1b5ce635c26")
+	)
+	(junction
+		(at 77.47 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b828c8c0-fa16-44cb-ba47-259adf1b83be")
 	)
 	(junction
 		(at 172.72 54.61)
@@ -679,34 +1063,40 @@
 		(uuid "bf55c613-d553-4fce-82d9-7e636906cb6f")
 	)
 	(junction
-		(at 208.28 80.01)
+		(at 111.76 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c56aef92-41ef-418b-8804-88d05ed47c4d")
+		(uuid "c2f2d59c-f6fd-4ca0-8061-f587d8dc022c")
 	)
 	(junction
-		(at 93.98 45.72)
+		(at 200.66 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cae3f748-5591-488e-9892-11313af86277")
+		(uuid "c3f2e481-82ab-41e8-ac1e-6c7dd349daa0")
 	)
 	(junction
-		(at 78.74 96.52)
+		(at 242.57 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d2423eea-079f-4c63-a773-6dde4f132e02")
+		(uuid "c4da4d5d-abdc-44c1-bd32-6b589b5a4015")
 	)
 	(junction
-		(at 144.78 45.72)
+		(at 213.36 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d41de212-20bf-4828-ab31-fbf26fff389c")
+		(uuid "c631db6a-8bb8-42fb-a7b7-39ade7636329")
 	)
 	(junction
-		(at 114.3 62.23)
+		(at 166.37 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d53a8e76-5b91-432a-88fd-c73c5ac08304")
+		(uuid "c9e04279-f623-4e1e-bcb7-595abc000eae")
+	)
+	(junction
+		(at 80.01 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5149bac-fc75-491b-a889-dd1b27a27c5e")
 	)
 	(junction
 		(at 38.1 72.39)
@@ -715,16 +1105,10 @@
 		(uuid "d7ae3fa0-7ac1-436f-8aaf-504c213b25d6")
 	)
 	(junction
-		(at 148.59 62.23)
+		(at 184.15 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "de1fa95c-60f6-4020-a947-dabadae7a2ad")
-	)
-	(junction
-		(at 97.79 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e169056e-673b-41c3-a111-42031ed684d0")
+		(uuid "de0a35da-91fb-4e9f-ad74-84c2a58d1b6d")
 	)
 	(junction
 		(at 100.33 38.1)
@@ -739,16 +1123,10 @@
 		(uuid "e2994b15-dc98-45a6-8a6c-30f429e40052")
 	)
 	(junction
-		(at 88.9 80.01)
+		(at 207.01 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e36403f6-2474-498c-83a0-7416553016db")
-	)
-	(junction
-		(at 228.6 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e48d5187-8b94-49c4-b226-54991b0f22da")
+		(uuid "e5dd4f60-666a-4dc2-af9c-4ea7919ff151")
 	)
 	(junction
 		(at 121.92 54.61)
@@ -757,34 +1135,22 @@
 		(uuid "e6300f4b-f624-438f-8d82-7eed2702bb34")
 	)
 	(junction
-		(at 199.39 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ebd5a536-e0f3-47a9-84a6-e40b8d18ffa0")
-	)
-	(junction
 		(at 198.12 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed01dfc9-1e31-45c3-8d51-cb19d926ea7f")
 	)
 	(junction
-		(at 224.79 96.52)
+		(at 149.86 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f22926ce-161c-4759-ab95-dbd1939798b2")
+		(uuid "f245de1d-3825-48c2-b908-a1a70eb67184")
 	)
 	(junction
 		(at 214.63 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f42b9434-3aca-44cc-9606-29d8f14af7a5")
-	)
-	(junction
-		(at 76.2 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f4d90760-74b3-41c7-8f1c-c03ecc89d5d9")
 	)
 	(junction
 		(at 134.62 38.1)
@@ -799,12 +1165,6 @@
 		(uuid "f5b15e7b-833f-46d2-996e-0d286197f916")
 	)
 	(junction
-		(at 190.5 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f80c4fe8-a367-48d1-9cfe-4ff0131593bc")
-	)
-	(junction
 		(at 236.22 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -815,6 +1175,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb555419-ebdb-4613-994f-f2d50e4c74ec")
+	)
+	(junction
+		(at 162.56 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd490f69-4c6e-483d-96c8-4e4ab25d2e75")
 	)
 	(junction
 		(at 247.65 54.61)
@@ -840,6 +1206,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 62.23) (xy 64.77 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "011d3e72-f791-4cdf-95fb-83f1bf39d3e1")
+	)
+	(wire
+		(pts
 			(xy 138.43 67.31) (xy 147.32 67.31)
 		)
 		(stroke
@@ -847,6 +1223,26 @@
 			(type default)
 		)
 		(uuid "02162abd-afd4-4a37-86d6-cc72638195d0")
+	)
+	(wire
+		(pts
+			(xy 196.85 38.1) (xy 195.58 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02af43ed-0aef-41c5-a571-d21ba21b8b00")
+	)
+	(wire
+		(pts
+			(xy 162.56 45.72) (xy 179.07 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "032a3071-042b-4b21-be98-02fcda48a8dc")
 	)
 	(wire
 		(pts
@@ -890,23 +1286,13 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 45.72) (xy 127 45.72)
+			(xy 179.07 38.1) (xy 177.8 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "08600822-3654-47c5-8105-d33d0fb5dcdc")
-	)
-	(wire
-		(pts
-			(xy 177.8 45.72) (xy 195.58 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08b4468c-24fc-4c7c-9525-8eb0b3a54148")
+		(uuid "08bd49a5-8eb6-4f1d-af19-a03a899608aa")
 	)
 	(wire
 		(pts
@@ -940,23 +1326,33 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 62.23) (xy 148.59 62.23)
+			(xy 213.36 38.1) (xy 212.09 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0ee8bf1e-3e70-4d7a-9bb4-bb39c788a27b")
+		(uuid "0e64434a-b594-40cd-a3fa-1d0275ba0ebd")
 	)
 	(wire
 		(pts
-			(xy 195.58 45.72) (xy 212.09 45.72)
+			(xy 128.27 45.72) (xy 146.05 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "119fdb11-a5a0-4f20-bfa6-d8dd7089f4a5")
+		(uuid "10612b35-3407-4f9c-9858-c7816d61be99")
+	)
+	(wire
+		(pts
+			(xy 247.65 38.1) (xy 246.38 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11dfa844-16b7-46dd-9869-6e7d1558fe08")
 	)
 	(wire
 		(pts
@@ -967,6 +1363,16 @@
 			(type default)
 		)
 		(uuid "122da3a0-b5f9-4dbb-90c4-59c11e583f1b")
+	)
+	(wire
+		(pts
+			(xy 158.75 72.39) (xy 157.48 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "132b65f7-c97b-4af8-bdad-8f49f6fb9fe4")
 	)
 	(wire
 		(pts
@@ -990,23 +1396,23 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 96.52) (xy 224.79 96.52)
+			(xy 90.17 72.39) (xy 88.9 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "17fc292e-f114-4f06-bde2-a6d835eef341")
+		(uuid "19e3c575-e7b2-417f-91bf-f7caa6a25ff1")
 	)
 	(wire
 		(pts
-			(xy 224.79 80.01) (xy 241.3 80.01)
+			(xy 143.51 96.52) (xy 207.01 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1bd6c9e6-1dfb-4951-92c1-095161377aae")
+		(uuid "1b85c6c0-52bf-498c-b3b6-6528f080c3d1")
 	)
 	(wire
 		(pts
@@ -1050,6 +1456,26 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 88.9) (xy 205.74 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b84868b-817a-4b05-8dbc-37a6d3bfbe18")
+	)
+	(wire
+		(pts
+			(xy 115.57 62.23) (xy 133.35 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c20f827-b0e9-4f04-8242-551cf43cb96f")
+	)
+	(wire
+		(pts
 			(xy 185.42 38.1) (xy 185.42 54.61)
 		)
 		(stroke
@@ -1060,6 +1486,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 80.01) (xy 107.95 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3054b0cb-545d-4d54-83e8-3f1c07688eb1")
+	)
+	(wire
+		(pts
 			(xy 104.14 54.61) (xy 104.14 67.31)
 		)
 		(stroke
@@ -1067,6 +1503,16 @@
 			(type default)
 		)
 		(uuid "32befd5c-a1f8-4fc7-9f50-33ada78c42f9")
+	)
+	(wire
+		(pts
+			(xy 124.46 80.01) (xy 140.97 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "346b5522-21db-48be-9c44-037195a6abb1")
 	)
 	(wire
 		(pts
@@ -1100,6 +1546,36 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 88.9) (xy 142.24 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35feba2b-2a4d-476d-846a-9ac5cc116728")
+	)
+	(wire
+		(pts
+			(xy 111.76 45.72) (xy 128.27 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "362a6e5f-d7e2-450c-932b-e39f45d9efb6")
+	)
+	(wire
+		(pts
+			(xy 269.24 38.1) (xy 267.97 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "362c8e1c-8bc1-48f0-9487-86ba6fac8b88")
+	)
+	(wire
+		(pts
 			(xy 113.03 67.31) (xy 113.03 72.39)
 		)
 		(stroke
@@ -1107,16 +1583,6 @@
 			(type default)
 		)
 		(uuid "38166393-1b83-4d90-bdd8-6d51976af0df")
-	)
-	(wire
-		(pts
-			(xy 127 45.72) (xy 144.78 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39cee6a0-2450-4a30-bb93-500c0259b093")
 	)
 	(wire
 		(pts
@@ -1160,6 +1626,26 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 38.1) (xy 110.49 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41627728-691b-406a-9a6f-066c5dfa10f7")
+	)
+	(wire
+		(pts
+			(xy 60.96 38.1) (xy 59.69 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4250bdaf-1f5e-43f1-872d-81add33a4648")
+	)
+	(wire
+		(pts
 			(xy 189.23 67.31) (xy 198.12 67.31)
 		)
 		(stroke
@@ -1180,33 +1666,13 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 45.72) (xy 177.8 45.72)
+			(xy 33.02 38.1) (xy 33.02 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "45182102-6fbc-48a0-99b9-0e47b4ec7ec6")
-	)
-	(wire
-		(pts
-			(xy 208.28 80.01) (xy 224.79 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45c83ad3-6764-47b4-a979-0c0127d9aa13")
-	)
-	(wire
-		(pts
-			(xy 59.69 45.72) (xy 76.2 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48e92577-016c-44ea-bf85-523aa77dfa0c")
+		(uuid "477dc8fa-7819-4b48-95e7-e39a03a51d45")
 	)
 	(wire
 		(pts
@@ -1220,13 +1686,33 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 45.72) (xy 161.29 45.72)
+			(xy 226.06 72.39) (xy 224.79 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4a94335b-4011-4ece-90a3-9daeb06747d6")
+		(uuid "4aa0c94f-67a1-45e1-ba29-671df575d3e4")
+	)
+	(wire
+		(pts
+			(xy 217.17 54.61) (xy 215.9 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ae41b95-17a5-42e2-918d-d4f15f4757c2")
+	)
+	(wire
+		(pts
+			(xy 49.53 80.01) (xy 73.66 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bb8a14f-5189-4887-92e1-2fc357570f00")
 	)
 	(wire
 		(pts
@@ -1240,23 +1726,23 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 62.23) (xy 257.81 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "506bd32d-7d25-41c8-8c46-f54bb798aa59")
-	)
-	(wire
-		(pts
-			(xy 24.13 62.23) (xy 44.45 62.23)
+			(xy 24.13 62.23) (xy 45.72 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5118418a-f6b9-42d1-85e7-515198a2000d")
+	)
+	(wire
+		(pts
+			(xy 166.37 62.23) (xy 184.15 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5852ef16-0cbe-4aef-ab94-024b2c887d68")
 	)
 	(wire
 		(pts
@@ -1270,13 +1756,43 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 96.52) (xy 78.74 96.52)
+			(xy 196.85 45.72) (xy 213.36 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5de4f9c8-7ca9-4c8c-a148-42518ed8dffa")
+		(uuid "5c3b86e7-9bb6-40bb-8dd7-c5b8ad8e3f46")
+	)
+	(wire
+		(pts
+			(xy 184.15 54.61) (xy 182.88 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cceaa0d-bd65-445e-8c04-4b6a53f7c980")
+	)
+	(wire
+		(pts
+			(xy 175.26 80.01) (xy 191.77 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e1f32b9-aa75-4090-9510-7a55beecf8eb")
+	)
+	(wire
+		(pts
+			(xy 242.57 72.39) (xy 241.3 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f7ee3b9-ca02-4165-aa79-47e6584c77a6")
 	)
 	(wire
 		(pts
@@ -1290,13 +1806,13 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 96.52) (xy 142.24 96.52)
+			(xy 80.01 88.9) (xy 78.74 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "60534049-2fcd-4d13-8064-2a641c601e28")
+		(uuid "62b50c67-9d6e-4187-970e-4a9a74d3e2f3")
 	)
 	(wire
 		(pts
@@ -1340,6 +1856,26 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 80.01) (xy 209.55 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66e95bf7-f527-47cc-ae9b-981c5e1f3f66")
+	)
+	(wire
+		(pts
+			(xy 80.01 96.52) (xy 143.51 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67676df6-6d2d-49f4-9a95-24530def0e15")
+	)
+	(wire
+		(pts
 			(xy 78.74 67.31) (xy 78.74 72.39)
 		)
 		(stroke
@@ -1350,13 +1886,23 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 80.01) (xy 139.7 80.01)
+			(xy 95.25 38.1) (xy 93.98 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "69ba0d1f-7d0a-4937-ac9c-e38931c5e621")
+		(uuid "69519728-bcdc-4da6-a7a9-f8dbacdc0b06")
+	)
+	(wire
+		(pts
+			(xy 146.05 38.1) (xy 144.78 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "697e10d0-20de-4d37-a92f-15b035983a49")
 	)
 	(wire
 		(pts
@@ -1370,33 +1916,23 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 80.01) (xy 106.68 80.01)
+			(xy 162.56 38.1) (xy 161.29 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "69fd7739-bd67-4dc1-aa26-8f4f311ded81")
+		(uuid "6b17840f-20c7-42d9-a1dd-e86f1bdc7974")
 	)
 	(wire
 		(pts
-			(xy 24.13 96.52) (xy 57.15 96.52)
+			(xy 24.13 96.52) (xy 58.42 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6baacebe-86cc-4a70-ae8b-7b182eda6bcf")
-	)
-	(wire
-		(pts
-			(xy 157.48 80.01) (xy 173.99 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6bce77d6-7a51-4a8e-ad8e-e508f16b5a54")
 	)
 	(wire
 		(pts
@@ -1410,16 +1946,6 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 62.23) (xy 233.68 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c824f98-7173-4060-a7cb-158dc173d612")
-	)
-	(wire
-		(pts
 			(xy 66.04 54.61) (xy 69.85 54.61)
 		)
 		(stroke
@@ -1427,6 +1953,36 @@
 			(type default)
 		)
 		(uuid "6d85dc0f-afa6-4d4b-8cde-1b05e96520e2")
+	)
+	(wire
+		(pts
+			(xy 226.06 80.01) (xy 242.57 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ef4c621-1925-4d63-8695-b28a9a51454e")
+	)
+	(wire
+		(pts
+			(xy 234.95 62.23) (xy 259.08 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "715a269d-88e1-4d01-9693-c61b49c91439")
+	)
+	(wire
+		(pts
+			(xy 133.35 62.23) (xy 149.86 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7453f018-2abf-459c-96d9-d1dbaa25212a")
 	)
 	(wire
 		(pts
@@ -1450,6 +2006,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 62.23) (xy 200.66 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "751827d7-de39-44f6-8449-1e33a04b3b64")
+	)
+	(wire
+		(pts
 			(xy 83.82 38.1) (xy 83.82 54.61)
 		)
 		(stroke
@@ -1460,23 +2026,13 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 80.01) (xy 190.5 80.01)
+			(xy 158.75 80.01) (xy 175.26 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "76dc9c13-db1f-47a7-84ac-6c4a673a6fb3")
-	)
-	(wire
-		(pts
-			(xy 199.39 62.23) (xy 215.9 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77db9338-10c8-4d59-a033-afe7d9ee60b7")
+		(uuid "77fb499f-52d0-4814-ad4a-afd22ee4e5f6")
 	)
 	(wire
 		(pts
@@ -1487,6 +2043,26 @@
 			(type default)
 		)
 		(uuid "79f72fa2-8328-42bd-bc7e-7cbe423bc824")
+	)
+	(wire
+		(pts
+			(xy 60.96 45.72) (xy 77.47 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a746613-4f4f-4fcf-9b7c-9cf369571921")
+	)
+	(wire
+		(pts
+			(xy 81.28 54.61) (xy 80.01 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7aa9a765-fd36-410a-9c7e-c021b15cc9ee")
 	)
 	(wire
 		(pts
@@ -1510,13 +2086,23 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 80.01) (xy 123.19 80.01)
+			(xy 58.42 96.52) (xy 80.01 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7f7b60fd-0569-4f1c-a29a-9ec22a2835d8")
+		(uuid "7dbb7558-80d6-4c95-829b-4d0567f69101")
+	)
+	(wire
+		(pts
+			(xy 73.66 72.39) (xy 72.39 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f3bd332-3c76-4ae9-ba2a-31a4905e24f8")
 	)
 	(wire
 		(pts
@@ -1530,6 +2116,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 62.23) (xy 99.06 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8157c0df-0d41-470b-9a26-11b6d43013a6")
+	)
+	(wire
+		(pts
 			(xy 34.29 54.61) (xy 34.29 72.39)
 		)
 		(stroke
@@ -1537,6 +2133,36 @@
 			(type default)
 		)
 		(uuid "8172747d-7722-462a-a260-dccf7bc4c5ae")
+	)
+	(wire
+		(pts
+			(xy 242.57 88.9) (xy 241.3 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "838fe38a-d775-4dc9-93b2-9205b91e692a")
+	)
+	(wire
+		(pts
+			(xy 128.27 38.1) (xy 127 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8644cc85-9f27-4086-877b-5637994c56fb")
+	)
+	(wire
+		(pts
+			(xy 107.95 72.39) (xy 106.68 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86a2bd9a-b503-4660-869d-1f9c17017a98")
 	)
 	(wire
 		(pts
@@ -1550,6 +2176,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 62.23) (xy 234.95 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "873f7c03-48d2-4370-9ed9-e29c4e6ca978")
+	)
+	(wire
+		(pts
 			(xy 154.94 54.61) (xy 154.94 67.31)
 		)
 		(stroke
@@ -1557,6 +2193,16 @@
 			(type default)
 		)
 		(uuid "877e1e0c-70be-4b04-9650-5ffb787770ba")
+	)
+	(wire
+		(pts
+			(xy 229.87 45.72) (xy 247.65 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88805976-6496-4740-b524-6d81502a75a0")
 	)
 	(wire
 		(pts
@@ -1580,17 +2226,17 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 45.72) (xy 246.38 45.72)
+			(xy 58.42 88.9) (xy 57.15 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8b2418c5-9079-454b-b1a9-538a95e2a7fb")
+		(uuid "8afdbd83-9ed6-42a9-9444-770c912693b6")
 	)
 	(wire
 		(pts
-			(xy 24.13 80.01) (xy 48.26 80.01)
+			(xy 24.13 80.01) (xy 49.53 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1620,6 +2266,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 80.01) (xy 158.75 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92602adc-0a30-4294-b4db-eb2d896c8f89")
+	)
+	(wire
+		(pts
 			(xy 129.54 88.9) (xy 132.08 88.9)
 		)
 		(stroke
@@ -1640,6 +2296,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 54.61) (xy 44.45 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9826ed13-750e-4e46-ac7a-7ad60802b48a")
+	)
+	(wire
+		(pts
 			(xy 247.65 54.61) (xy 247.65 72.39)
 		)
 		(stroke
@@ -1647,16 +2313,6 @@
 			(type default)
 		)
 		(uuid "9a7e1954-37df-4939-9eb8-40bcf8ba59a1")
-	)
-	(wire
-		(pts
-			(xy 114.3 62.23) (xy 132.08 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c348329-6018-4a56-a2fe-b728ba286e8f")
 	)
 	(wire
 		(pts
@@ -1670,6 +2326,26 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 80.01) (xy 124.46 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d6e27fc-98f2-47ab-9621-7d57755f9fd1")
+	)
+	(wire
+		(pts
+			(xy 95.25 45.72) (xy 111.76 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9db0750f-b5ef-4311-97e0-888c1e150f9e")
+	)
+	(wire
+		(pts
 			(xy 49.53 38.1) (xy 49.53 54.61)
 		)
 		(stroke
@@ -1677,16 +2353,6 @@
 			(type default)
 		)
 		(uuid "9de5d9c0-667c-4464-a119-df77890b942f")
-	)
-	(wire
-		(pts
-			(xy 190.5 80.01) (xy 208.28 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0be1d35-d957-45c1-b11b-b02a90e8590d")
 	)
 	(wire
 		(pts
@@ -1700,26 +2366,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 62.23) (xy 165.1 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a23ce478-7b36-4614-a158-ab14807727d1")
-	)
-	(wire
-		(pts
-			(xy 76.2 45.72) (xy 93.98 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a23fffb4-653c-4e34-9ea7-35b1f30dc7a0")
-	)
-	(wire
-		(pts
 			(xy 151.13 38.1) (xy 151.13 54.61)
 		)
 		(stroke
@@ -1730,13 +2376,13 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 31.75) (xy 33.02 38.1)
+			(xy 226.06 96.52) (xy 242.57 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a501545a-7fb5-4344-b763-ce34997eee9e")
+		(uuid "a5cddb73-834a-45ce-beed-0f8bdcb43690")
 	)
 	(wire
 		(pts
@@ -1750,13 +2396,13 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 62.23) (xy 80.01 62.23)
+			(xy 229.87 38.1) (xy 228.6 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a734f082-aedb-487d-b5cb-5a3c912bf52b")
+		(uuid "a7d8ea43-3262-4f7f-8c6e-bff42c8bd420")
 	)
 	(wire
 		(pts
@@ -1770,23 +2416,13 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 45.72) (xy 228.6 45.72)
+			(xy 179.07 45.72) (xy 196.85 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aec35fc8-69d4-4dc3-bbca-16a2145f5acd")
-	)
-	(wire
-		(pts
-			(xy 97.79 62.23) (xy 114.3 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1c22d73-4a9e-495d-9715-bbd849ba4fec")
+		(uuid "a944a7a0-e68f-46cd-a903-3d5ff9be558a")
 	)
 	(wire
 		(pts
@@ -1800,13 +2436,13 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 62.23) (xy 199.39 62.23)
+			(xy 64.77 54.61) (xy 63.5 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b6287a80-0867-4a41-aa86-cabad491615b")
+		(uuid "b67d3e61-a32b-48de-a391-50c7e0bfb135")
 	)
 	(wire
 		(pts
@@ -1820,13 +2456,13 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 62.23) (xy 182.88 62.23)
+			(xy 213.36 45.72) (xy 229.87 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b8738853-5e69-4043-a4b2-f2b174c7e7b1")
+		(uuid "b903e9cf-1673-413a-a166-8d2c8ffdfe0c")
 	)
 	(wire
 		(pts
@@ -1860,6 +2496,26 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 54.61) (xy 165.1 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb885cf6-0fcc-42c8-8c5f-dcff31984b96")
+	)
+	(wire
+		(pts
+			(xy 44.45 45.72) (xy 60.96 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc2fc0e3-45a8-4cf8-86dd-2c84733c22e2")
+	)
+	(wire
+		(pts
 			(xy 69.85 54.61) (xy 69.85 67.31)
 		)
 		(stroke
@@ -1867,6 +2523,16 @@
 			(type default)
 		)
 		(uuid "be877964-0cd7-47b9-929d-baf586ed78e7")
+	)
+	(wire
+		(pts
+			(xy 264.16 72.39) (xy 262.89 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfd31c47-ff61-47b0-8f43-ce27b330cf5b")
 	)
 	(wire
 		(pts
@@ -1890,33 +2556,13 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 96.52) (xy 259.08 96.52)
+			(xy 43.18 38.1) (xy 44.45 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c1634bcd-4cc6-41b0-bd67-140bdbf62277")
-	)
-	(wire
-		(pts
-			(xy 241.3 80.01) (xy 262.89 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c398cc68-4959-43f1-8891-b738366f0c7b")
-	)
-	(wire
-		(pts
-			(xy 246.38 45.72) (xy 267.97 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3f37836-614b-410d-bbd2-036eb014175a")
+		(uuid "c1bbc8f9-1eab-490a-9965-126583ab1ca5")
 	)
 	(wire
 		(pts
@@ -1930,13 +2576,13 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 62.23) (xy 97.79 62.23)
+			(xy 226.06 88.9) (xy 224.79 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c5160e9c-7713-4c81-90c8-2e75da894a79")
+		(uuid "c5053280-d908-4ef8-bcb6-031737444bba")
 	)
 	(wire
 		(pts
@@ -1950,6 +2596,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 72.39) (xy 139.7 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6175442-426b-46f0-b93c-ec6e20ccca33")
+	)
+	(wire
+		(pts
 			(xy 62.23 72.39) (xy 62.23 88.9)
 		)
 		(stroke
@@ -1957,6 +2613,46 @@
 			(type default)
 		)
 		(uuid "c908276f-b4d2-46b2-8868-1ac59bc03ee8")
+	)
+	(wire
+		(pts
+			(xy 259.08 54.61) (xy 257.81 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb7d891e-2bf8-456f-a84d-0a3b33c0b6f3")
+	)
+	(wire
+		(pts
+			(xy 247.65 45.72) (xy 269.24 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbf6039f-950b-4d9f-9df2-1169537398a7")
+	)
+	(wire
+		(pts
+			(xy 260.35 88.9) (xy 259.08 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccd7d690-b1c1-4fd6-849e-9096f2200588")
+	)
+	(wire
+		(pts
+			(xy 209.55 80.01) (xy 226.06 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce05f935-53de-4e98-a26e-d9f8c69bfb30")
 	)
 	(wire
 		(pts
@@ -1980,6 +2676,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 62.23) (xy 217.17 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0a1c2bb-0ecf-4e64-b58d-7a88a6076a9d")
+	)
+	(wire
+		(pts
 			(xy 218.44 54.61) (xy 223.52 54.61)
 		)
 		(stroke
@@ -1990,13 +2696,33 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 54.61) (xy 33.02 38.1)
+			(xy 115.57 54.61) (xy 114.3 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d1e9e16d-eed8-46c9-b92d-01d497ef7fc0")
+		(uuid "d1fe51a6-fede-4c28-bb01-42239c68217d")
+	)
+	(wire
+		(pts
+			(xy 64.77 62.23) (xy 81.28 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d38d1443-8cd8-41f8-ba3f-bc6dc9083930")
+	)
+	(wire
+		(pts
+			(xy 99.06 54.61) (xy 97.79 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d50844a5-afbc-4cd0-a4af-6be01e69d7c1")
 	)
 	(wire
 		(pts
@@ -2020,6 +2746,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 72.39) (xy 123.19 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6e51e1a-5557-4e0c-b9f0-507f266dd282")
+	)
+	(wire
+		(pts
 			(xy 236.22 38.1) (xy 236.22 54.61)
 		)
 		(stroke
@@ -2027,16 +2763,6 @@
 			(type default)
 		)
 		(uuid "d93a8593-76b6-4167-b65a-7a69463bf2b3")
-	)
-	(wire
-		(pts
-			(xy 43.18 45.72) (xy 59.69 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d963e195-c5b2-4367-b9d4-db4d1833e680")
 	)
 	(wire
 		(pts
@@ -2050,6 +2776,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 31.75) (xy 33.02 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da61ebb5-43c2-46e4-acd1-f8ef4f30484c")
+	)
+	(wire
+		(pts
 			(xy 201.93 54.61) (xy 205.74 54.61)
 		)
 		(stroke
@@ -2057,6 +2793,26 @@
 			(type default)
 		)
 		(uuid "dae72deb-4953-497b-b8d8-cb6a7a2f8467")
+	)
+	(wire
+		(pts
+			(xy 73.66 80.01) (xy 90.17 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db26d0d4-ecef-4d0b-9cb7-e81eb068fcc7")
+	)
+	(wire
+		(pts
+			(xy 149.86 54.61) (xy 148.59 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbfdb21d-426d-45d8-a3f6-c3e563be68f2")
 	)
 	(wire
 		(pts
@@ -2070,6 +2826,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 72.39) (xy 208.28 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfa24267-0e8f-4580-9488-e084e19c408e")
+	)
+	(wire
+		(pts
 			(xy 248.92 83.82) (xy 248.92 88.9)
 		)
 		(stroke
@@ -2077,6 +2843,36 @@
 			(type default)
 		)
 		(uuid "e02c54d9-e2b5-470f-a24c-b124d06d75d6")
+	)
+	(wire
+		(pts
+			(xy 77.47 45.72) (xy 95.25 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1c3283a-2f56-4c20-a99b-568438e0c2bc")
+	)
+	(wire
+		(pts
+			(xy 146.05 45.72) (xy 162.56 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e39d5ab5-6b79-4c19-9784-e4132bc9c490")
+	)
+	(wire
+		(pts
+			(xy 200.66 54.61) (xy 199.39 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3f476f1-0ba6-4f51-8abc-26ad657a899f")
 	)
 	(wire
 		(pts
@@ -2090,33 +2886,83 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 96.52) (xy 205.74 96.52)
+			(xy 175.26 72.39) (xy 173.99 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e5148666-dbc5-4486-948f-fd78ed34c969")
+		(uuid "e6e61e2a-3372-416e-86f0-b7df6c66d9ee")
 	)
 	(wire
 		(pts
-			(xy 224.79 96.52) (xy 241.3 96.52)
+			(xy 242.57 96.52) (xy 260.35 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f112546e-9c3f-463a-a061-6d9b859e55be")
+		(uuid "ea50b36c-3a2c-4e1c-8ccb-6085d1ac159e")
 	)
 	(wire
 		(pts
-			(xy 72.39 80.01) (xy 88.9 80.01)
+			(xy 234.95 54.61) (xy 233.68 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f11b88a8-34e6-4730-b70a-74c34fd88133")
+		(uuid "ea78ee95-2a5a-46b4-893f-7a1a5cb969f7")
+	)
+	(wire
+		(pts
+			(xy 149.86 62.23) (xy 166.37 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb822480-2491-49fe-8df9-96146106fcdc")
+	)
+	(wire
+		(pts
+			(xy 133.35 54.61) (xy 132.08 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb8f13ad-8b3a-4295-a4cb-8edb21460193")
+	)
+	(wire
+		(pts
+			(xy 49.53 72.39) (xy 48.26 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec176888-e848-4ecd-9b31-46022faa6a31")
+	)
+	(wire
+		(pts
+			(xy 242.57 80.01) (xy 264.16 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee5689a1-e553-46d7-ab03-816810328b37")
+	)
+	(wire
+		(pts
+			(xy 77.47 38.1) (xy 76.2 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3b78cb7-df65-401e-893d-33f4cd4fe27e")
 	)
 	(wire
 		(pts
@@ -2140,17 +2986,17 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 62.23) (xy 63.5 62.23)
+			(xy 99.06 62.23) (xy 115.57 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f59832a5-45e8-4710-9110-5dadf93a294c")
+		(uuid "f4d110b6-fc40-4995-a4d3-31c5e55bd1ad")
 	)
 	(wire
 		(pts
-			(xy 24.13 45.72) (xy 43.18 45.72)
+			(xy 24.13 45.72) (xy 44.45 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2170,33 +3016,23 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 80.01) (xy 157.48 80.01)
+			(xy 191.77 72.39) (xy 190.5 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f8e2344b-7b8a-4daa-bbe9-f8bdc80e85b5")
+		(uuid "f9f25800-81b5-4675-a8db-75fa94f48e02")
 	)
 	(wire
 		(pts
-			(xy 48.26 80.01) (xy 72.39 80.01)
+			(xy 207.01 96.52) (xy 226.06 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fbd000be-5900-4462-b10d-5afa579c309b")
-	)
-	(wire
-		(pts
-			(xy 93.98 45.72) (xy 110.49 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "feeb711d-820e-4ab9-bc11-d6e64f1bd439")
+		(uuid "fe5caf25-8a5e-4da7-9f28-e693051f42e0")
 	)
 	(global_label "Col13"
 		(shape input)
@@ -2620,7 +3456,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB"
 			(at 39.37 49.53 0)
 			(effects
 				(font
@@ -2666,6 +3502,12 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2694,7 +3536,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 172.72 33.02 0)
 			(effects
 				(font
@@ -2740,11 +3582,17 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 190.5 76.2 90)
+		(at 191.77 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2753,7 +3601,7 @@
 		(fields_autoplaced yes)
 		(uuid "10b070a8-4bb2-4385-a7ee-a0826605c3a6")
 		(property "Reference" "D36"
-			(at 193.04 74.9299 90)
+			(at 194.31 74.9299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2762,16 +3610,17 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 193.04 77.4699 90)
+			(at 194.31 77.4699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 190.5 76.2 0)
+			(at 191.77 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2780,7 +3629,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 190.5 76.2 0)
+			(at 191.77 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2789,7 +3638,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 190.5 76.2 0)
+			(at 191.77 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2798,7 +3647,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 190.5 76.2 0)
+			(at 191.77 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2807,7 +3656,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 190.5 76.2 0)
+			(at 191.77 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2825,6 +3674,12 @@
 			(project "snakey"
 				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
 					(reference "D36")
+					(unit 1)
+				)
+			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -2856,7 +3711,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 127 49.53 0)
 			(effects
 				(font
@@ -2902,6 +3757,12 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2930,7 +3791,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 194.31 49.53 0)
 			(effects
 				(font
@@ -2976,6 +3837,12 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3004,7 +3871,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 219.71 83.82 0)
 			(effects
 				(font
@@ -3050,11 +3917,17 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 224.79 76.2 90)
+		(at 226.06 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3063,7 +3936,7 @@
 		(fields_autoplaced yes)
 		(uuid "1cd97003-171b-41d0-82d3-274ff2e60a23")
 		(property "Reference" "D38"
-			(at 227.33 74.9299 90)
+			(at 228.6 74.9299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3072,16 +3945,17 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 227.33 77.4699 90)
+			(at 228.6 77.4699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 224.79 76.2 0)
+			(at 226.06 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3090,7 +3964,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 224.79 76.2 0)
+			(at 226.06 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3099,7 +3973,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 224.79 76.2 0)
+			(at 226.06 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3108,7 +3982,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 224.79 76.2 0)
+			(at 226.06 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3117,7 +3991,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 224.79 76.2 0)
+			(at 226.06 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3138,11 +4012,17 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 114.3 58.42 90)
+		(at 115.57 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3151,7 +4031,7 @@
 		(fields_autoplaced yes)
 		(uuid "231a6d48-1634-4840-a8ce-21bc9e6216bf")
 		(property "Reference" "D19"
-			(at 116.84 57.1499 90)
+			(at 118.11 57.1499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3160,16 +4040,17 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 116.84 59.6899 90)
+			(at 118.11 59.6899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 114.3 58.42 0)
+			(at 115.57 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3178,7 +4059,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 114.3 58.42 0)
+			(at 115.57 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3187,7 +4068,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 114.3 58.42 0)
+			(at 115.57 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3196,7 +4077,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 114.3 58.42 0)
+			(at 115.57 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3205,7 +4086,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 114.3 58.42 0)
+			(at 115.57 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3226,11 +4107,17 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 228.6 41.91 90)
+		(at 229.87 41.91 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3239,7 +4126,7 @@
 		(fields_autoplaced yes)
 		(uuid "2743dcc4-2c01-4de1-885b-336f4368473d")
 		(property "Reference" "D12"
-			(at 231.14 40.6399 90)
+			(at 232.41 40.6399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3248,16 +4135,17 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 231.14 43.1799 90)
+			(at 232.41 43.1799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 228.6 41.91 0)
+			(at 229.87 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3266,7 +4154,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 228.6 41.91 0)
+			(at 229.87 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3275,7 +4163,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 228.6 41.91 0)
+			(at 229.87 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3284,7 +4172,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 228.6 41.91 0)
+			(at 229.87 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3293,7 +4181,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 228.6 41.91 0)
+			(at 229.87 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3314,11 +4202,17 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 241.3 76.2 90)
+		(at 242.57 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3327,7 +4221,7 @@
 		(fields_autoplaced yes)
 		(uuid "283ed262-97b5-43ba-8875-6b7ac064a1ce")
 		(property "Reference" "D39"
-			(at 243.84 74.9299 90)
+			(at 245.11 74.9299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3336,16 +4230,17 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 243.84 77.4699 90)
+			(at 245.11 77.4699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 241.3 76.2 0)
+			(at 242.57 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3354,7 +4249,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 241.3 76.2 0)
+			(at 242.57 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3363,7 +4258,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 241.3 76.2 0)
+			(at 242.57 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3372,7 +4267,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 241.3 76.2 0)
+			(at 242.57 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3381,7 +4276,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 241.3 76.2 0)
+			(at 242.57 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3402,11 +4297,17 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 139.7 76.2 90)
+		(at 140.97 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3415,7 +4316,7 @@
 		(fields_autoplaced yes)
 		(uuid "2875a5b1-5de3-420d-9cce-6132220bac24")
 		(property "Reference" "D33"
-			(at 142.24 74.9299 90)
+			(at 143.51 74.9299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3424,16 +4325,17 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 142.24 77.4699 90)
+			(at 143.51 77.4699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 139.7 76.2 0)
+			(at 140.97 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3442,7 +4344,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 139.7 76.2 0)
+			(at 140.97 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3451,7 +4353,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 139.7 76.2 0)
+			(at 140.97 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3460,7 +4362,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 139.7 76.2 0)
+			(at 140.97 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3469,7 +4371,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 139.7 76.2 0)
+			(at 140.97 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3487,6 +4389,12 @@
 			(project "snakey"
 				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
 					(reference "D33")
+					(unit 1)
+				)
+			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -3518,7 +4426,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 139.7 33.02 0)
 			(effects
 				(font
@@ -3564,11 +4472,17 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 267.97 41.91 90)
+		(at 269.24 41.91 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3577,7 +4491,7 @@
 		(fields_autoplaced yes)
 		(uuid "2d7197b7-ed4b-4b56-bf37-4084a9d5b748")
 		(property "Reference" "D14"
-			(at 270.51 40.6399 90)
+			(at 271.78 40.6399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3586,16 +4500,17 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 270.51 43.1799 90)
+			(at 271.78 43.1799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 267.97 41.91 0)
+			(at 269.24 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3604,7 +4519,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 267.97 41.91 0)
+			(at 269.24 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3613,7 +4528,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 267.97 41.91 0)
+			(at 269.24 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3622,7 +4537,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 267.97 41.91 0)
+			(at 269.24 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3631,7 +4546,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 267.97 41.91 0)
+			(at 269.24 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3652,11 +4567,17 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 97.79 58.42 90)
+		(at 99.06 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3665,7 +4586,7 @@
 		(fields_autoplaced yes)
 		(uuid "2fc75f02-6d1d-4983-8eb1-0c04f10b76e0")
 		(property "Reference" "D18"
-			(at 100.33 57.1499 90)
+			(at 101.6 57.1499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3674,16 +4595,17 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 100.33 59.6899 90)
+			(at 101.6 59.6899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 97.79 58.42 0)
+			(at 99.06 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3692,7 +4614,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 97.79 58.42 0)
+			(at 99.06 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3701,7 +4623,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 97.79 58.42 0)
+			(at 99.06 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3710,7 +4632,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 97.79 58.42 0)
+			(at 99.06 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3719,7 +4641,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 97.79 58.42 0)
+			(at 99.06 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3737,6 +4659,12 @@
 			(project "snakey"
 				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
 					(reference "D18")
+					(unit 1)
+				)
+			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -3768,7 +4696,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 236.22 67.31 0)
 			(effects
 				(font
@@ -3814,11 +4742,17 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 199.39 58.42 90)
+		(at 200.66 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3827,7 +4761,7 @@
 		(fields_autoplaced yes)
 		(uuid "315fd99d-2f59-445d-a465-f4350797cd04")
 		(property "Reference" "D24"
-			(at 201.93 57.1499 90)
+			(at 203.2 57.1499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3836,16 +4770,17 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 201.93 59.6899 90)
+			(at 203.2 59.6899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 199.39 58.42 0)
+			(at 200.66 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3854,7 +4789,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 199.39 58.42 0)
+			(at 200.66 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3863,7 +4798,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 199.39 58.42 0)
+			(at 200.66 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3872,7 +4807,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 199.39 58.42 0)
+			(at 200.66 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3881,7 +4816,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 199.39 58.42 0)
+			(at 200.66 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3899,6 +4834,12 @@
 			(project "snakey"
 				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
 					(reference "D24")
+					(unit 1)
+				)
+			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -3930,7 +4871,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 109.22 49.53 0)
 			(effects
 				(font
@@ -3976,11 +4917,17 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 157.48 76.2 90)
+		(at 158.75 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3989,7 +4936,7 @@
 		(fields_autoplaced yes)
 		(uuid "31fd9e71-3fc5-435c-9dfc-c62022d4cf41")
 		(property "Reference" "D34"
-			(at 160.02 74.9299 90)
+			(at 161.29 74.9299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3998,16 +4945,17 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 160.02 77.4699 90)
+			(at 161.29 77.4699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 157.48 76.2 0)
+			(at 158.75 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4016,7 +4964,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 157.48 76.2 0)
+			(at 158.75 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4025,7 +4973,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 157.48 76.2 0)
+			(at 158.75 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4034,7 +4982,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 157.48 76.2 0)
+			(at 158.75 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4043,7 +4991,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 157.48 76.2 0)
+			(at 158.75 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4061,6 +5009,12 @@
 			(project "snakey"
 				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
 					(reference "D34")
+					(unit 1)
+				)
+			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -4092,7 +5046,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 101.6 67.31 0)
 			(effects
 				(font
@@ -4138,6 +5092,12 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4166,7 +5126,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 160.02 49.53 0)
 			(effects
 				(font
@@ -4212,11 +5172,17 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 88.9 76.2 90)
+		(at 90.17 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4225,7 +5191,7 @@
 		(fields_autoplaced yes)
 		(uuid "37051aca-2618-4f5f-a363-821cf9bd0a86")
 		(property "Reference" "D30"
-			(at 91.44 74.9299 90)
+			(at 92.71 74.9299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4234,16 +5200,17 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 91.44 77.4699 90)
+			(at 92.71 77.4699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 88.9 76.2 0)
+			(at 90.17 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4252,7 +5219,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 88.9 76.2 0)
+			(at 90.17 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4261,7 +5228,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 88.9 76.2 0)
+			(at 90.17 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4270,7 +5237,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 88.9 76.2 0)
+			(at 90.17 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4279,7 +5246,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 88.9 76.2 0)
+			(at 90.17 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4300,11 +5267,17 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 233.68 58.42 90)
+		(at 234.95 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4313,7 +5286,7 @@
 		(fields_autoplaced yes)
 		(uuid "387ffe7d-96d5-4cc7-995d-445595a17bd8")
 		(property "Reference" "D26"
-			(at 236.22 57.1499 90)
+			(at 237.49 57.1499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4322,16 +5295,17 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 236.22 59.6899 90)
+			(at 237.49 59.6899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 233.68 58.42 0)
+			(at 234.95 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4340,7 +5314,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 233.68 58.42 0)
+			(at 234.95 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4349,7 +5323,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 233.68 58.42 0)
+			(at 234.95 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4358,7 +5332,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 233.68 58.42 0)
+			(at 234.95 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4367,7 +5341,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 233.68 58.42 0)
+			(at 234.95 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4388,11 +5362,17 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 110.49 41.91 90)
+		(at 111.76 41.91 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4401,7 +5381,7 @@
 		(fields_autoplaced yes)
 		(uuid "3fe33877-2e95-4efd-af10-969f7d16a545")
 		(property "Reference" "D5"
-			(at 113.03 40.6399 90)
+			(at 114.3 40.6399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4410,16 +5390,17 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 113.03 43.1799 90)
+			(at 114.3 43.1799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 110.49 41.91 0)
+			(at 111.76 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4428,7 +5409,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 110.49 41.91 0)
+			(at 111.76 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4437,7 +5418,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 110.49 41.91 0)
+			(at 111.76 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4446,7 +5427,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 110.49 41.91 0)
+			(at 111.76 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4455,7 +5436,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 110.49 41.91 0)
+			(at 111.76 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4476,11 +5457,17 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 205.74 92.71 90)
+		(at 207.01 92.71 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4489,7 +5476,7 @@
 		(fields_autoplaced yes)
 		(uuid "47225b99-524f-4c8a-8a6b-c0c755433a5e")
 		(property "Reference" "D44"
-			(at 208.28 91.4399 90)
+			(at 209.55 91.4399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4498,16 +5485,17 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 208.28 93.9799 90)
+			(at 209.55 93.9799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 205.74 92.71 0)
+			(at 207.01 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4516,7 +5504,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 205.74 92.71 0)
+			(at 207.01 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4525,7 +5513,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 205.74 92.71 0)
+			(at 207.01 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4534,7 +5522,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 205.74 92.71 0)
+			(at 207.01 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4543,7 +5531,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 205.74 92.71 0)
+			(at 207.01 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4561,6 +5549,12 @@
 			(project "snakey"
 				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
 					(reference "D44")
+					(unit 1)
+				)
+			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -4592,7 +5586,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 54.61 33.02 0)
 			(effects
 				(font
@@ -4638,6 +5632,12 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4666,7 +5666,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 203.2 67.31 0)
 			(effects
 				(font
@@ -4712,6 +5712,12 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4740,7 +5746,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 223.52 33.02 0)
 			(effects
 				(font
@@ -4786,11 +5792,17 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 76.2 41.91 90)
+		(at 77.47 41.91 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4799,7 +5811,7 @@
 		(fields_autoplaced yes)
 		(uuid "5dd10f93-1458-477c-96ab-4bacbd02d4fd")
 		(property "Reference" "D3"
-			(at 78.74 40.6399 90)
+			(at 80.01 40.6399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4808,16 +5820,17 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 78.74 43.1799 90)
+			(at 80.01 43.1799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 76.2 41.91 0)
+			(at 77.47 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4826,7 +5839,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 76.2 41.91 0)
+			(at 77.47 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4835,7 +5848,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 76.2 41.91 0)
+			(at 77.47 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4844,7 +5857,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 76.2 41.91 0)
+			(at 77.47 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4853,7 +5866,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 76.2 41.91 0)
+			(at 77.47 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4874,11 +5887,17 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 127 41.91 90)
+		(at 128.27 41.91 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4887,7 +5906,7 @@
 		(fields_autoplaced yes)
 		(uuid "5e4c21c5-38d1-483b-b11f-644ecc558fae")
 		(property "Reference" "D6"
-			(at 129.54 40.6399 90)
+			(at 130.81 40.6399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4896,16 +5915,17 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 129.54 43.1799 90)
+			(at 130.81 43.1799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 127 41.91 0)
+			(at 128.27 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4914,7 +5934,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 127 41.91 0)
+			(at 128.27 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4923,7 +5943,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 127 41.91 0)
+			(at 128.27 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4932,7 +5952,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 127 41.91 0)
+			(at 128.27 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4941,7 +5961,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 127 41.91 0)
+			(at 128.27 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4962,11 +5982,17 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 224.79 92.71 90)
+		(at 226.06 92.71 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4975,7 +6001,7 @@
 		(fields_autoplaced yes)
 		(uuid "5e52da0c-e53c-4363-8ffe-c964d6f0e361")
 		(property "Reference" "D45"
-			(at 227.33 91.4399 90)
+			(at 228.6 91.4399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4984,16 +6010,17 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 227.33 93.9799 90)
+			(at 228.6 93.9799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 224.79 92.71 0)
+			(at 226.06 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5002,7 +6029,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 224.79 92.71 0)
+			(at 226.06 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5011,7 +6038,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 224.79 92.71 0)
+			(at 226.06 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5020,7 +6047,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 224.79 92.71 0)
+			(at 226.06 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5029,7 +6056,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 224.79 92.71 0)
+			(at 226.06 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5047,6 +6074,12 @@
 			(project "snakey"
 				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
 					(reference "D45")
+					(unit 1)
+				)
+			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -5078,7 +6111,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 74.93 49.53 0)
 			(effects
 				(font
@@ -5124,11 +6157,17 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 262.89 76.2 90)
+		(at 264.16 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5137,7 +6176,7 @@
 		(fields_autoplaced yes)
 		(uuid "630f028c-2761-4841-b715-ecd32768b3d0")
 		(property "Reference" "D40"
-			(at 265.43 74.9299 90)
+			(at 266.7 74.9299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5146,16 +6185,17 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 265.43 77.4699 90)
+			(at 266.7 77.4699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 262.89 76.2 0)
+			(at 264.16 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5164,7 +6204,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 262.89 76.2 0)
+			(at 264.16 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5173,7 +6213,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 262.89 76.2 0)
+			(at 264.16 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5182,7 +6222,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 262.89 76.2 0)
+			(at 264.16 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5191,7 +6231,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 262.89 76.2 0)
+			(at 264.16 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5212,11 +6252,17 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 48.26 76.2 90)
+		(at 49.53 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5225,7 +6271,7 @@
 		(fields_autoplaced yes)
 		(uuid "67180d48-a342-45a4-8e0b-c70fd2348d2d")
 		(property "Reference" "D28"
-			(at 50.8 74.9299 90)
+			(at 52.07 74.9299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5234,16 +6280,17 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 50.8 77.4699 90)
+			(at 52.07 77.4699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 48.26 76.2 0)
+			(at 49.53 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5252,7 +6299,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 48.26 76.2 0)
+			(at 49.53 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5261,7 +6308,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 48.26 76.2 0)
+			(at 49.53 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5270,7 +6317,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 48.26 76.2 0)
+			(at 49.53 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5279,7 +6326,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 48.26 76.2 0)
+			(at 49.53 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5300,11 +6347,17 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 212.09 41.91 90)
+		(at 213.36 41.91 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5313,7 +6366,7 @@
 		(fields_autoplaced yes)
 		(uuid "6dcdce2c-fcbd-4b2d-993a-12e3ae705279")
 		(property "Reference" "D11"
-			(at 214.63 40.6399 90)
+			(at 215.9 40.6399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5322,16 +6375,17 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 214.63 43.1799 90)
+			(at 215.9 43.1799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 212.09 41.91 0)
+			(at 213.36 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5340,7 +6394,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 212.09 41.91 0)
+			(at 213.36 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5349,7 +6403,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 212.09 41.91 0)
+			(at 213.36 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5358,7 +6412,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 212.09 41.91 0)
+			(at 213.36 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5367,7 +6421,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 212.09 41.91 0)
+			(at 213.36 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5385,6 +6439,12 @@
 			(project "snakey"
 				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
 					(reference "D11")
+					(unit 1)
+				)
+			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -5416,7 +6476,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 190.5 33.02 0)
 			(effects
 				(font
@@ -5462,6 +6522,12 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5490,7 +6556,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 262.89 33.02 0)
 			(effects
 				(font
@@ -5536,6 +6602,12 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5564,7 +6636,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB"
 			(at 200.66 83.82 0)
 			(effects
 				(font
@@ -5610,6 +6682,12 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5638,7 +6716,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 228.6 49.53 0)
 			(effects
 				(font
@@ -5684,11 +6762,17 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 59.69 41.91 90)
+		(at 60.96 41.91 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5697,7 +6781,7 @@
 		(fields_autoplaced yes)
 		(uuid "76d7f162-c945-4e46-99a3-d4536d4a2c7e")
 		(property "Reference" "D2"
-			(at 62.23 40.6399 90)
+			(at 63.5 40.6399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5706,16 +6790,17 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 62.23 43.1799 90)
+			(at 63.5 43.1799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 59.69 41.91 0)
+			(at 60.96 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5724,7 +6809,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 59.69 41.91 0)
+			(at 60.96 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5733,7 +6818,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 59.69 41.91 0)
+			(at 60.96 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5742,7 +6827,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 59.69 41.91 0)
+			(at 60.96 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5751,7 +6836,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 59.69 41.91 0)
+			(at 60.96 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5772,11 +6857,17 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 93.98 41.91 90)
+		(at 95.25 41.91 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5785,7 +6876,7 @@
 		(fields_autoplaced yes)
 		(uuid "7806827d-2c78-4344-abf8-240340c877e7")
 		(property "Reference" "D4"
-			(at 96.52 40.6399 90)
+			(at 97.79 40.6399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5794,16 +6885,17 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 96.52 43.1799 90)
+			(at 97.79 43.1799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 93.98 41.91 0)
+			(at 95.25 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5812,7 +6904,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 93.98 41.91 0)
+			(at 95.25 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5821,7 +6913,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 93.98 41.91 0)
+			(at 95.25 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5830,7 +6922,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 93.98 41.91 0)
+			(at 95.25 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5839,7 +6931,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 93.98 41.91 0)
+			(at 95.25 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5857,6 +6949,12 @@
 			(project "snakey"
 				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -5888,7 +6986,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 118.11 67.31 0)
 			(effects
 				(font
@@ -5934,11 +7032,17 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 257.81 58.42 90)
+		(at 259.08 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5947,7 +7051,7 @@
 		(fields_autoplaced yes)
 		(uuid "7b38a158-3f32-4405-b224-f39eb43f1abc")
 		(property "Reference" "D27"
-			(at 260.35 57.1499 90)
+			(at 261.62 57.1499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5956,16 +7060,17 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 260.35 59.6899 90)
+			(at 261.62 59.6899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 257.81 58.42 0)
+			(at 259.08 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5974,7 +7079,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 257.81 58.42 0)
+			(at 259.08 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5983,7 +7088,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 257.81 58.42 0)
+			(at 259.08 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5992,7 +7097,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 257.81 58.42 0)
+			(at 259.08 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6001,7 +7106,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 257.81 58.42 0)
+			(at 259.08 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6019,6 +7124,12 @@
 			(project "snakey"
 				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
 					(reference "D27")
+					(unit 1)
+				)
+			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -6050,7 +7161,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 121.92 33.02 0)
 			(effects
 				(font
@@ -6096,11 +7207,17 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 144.78 41.91 90)
+		(at 146.05 41.91 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6109,7 +7226,7 @@
 		(fields_autoplaced yes)
 		(uuid "7ec7fe83-d41e-4ec5-bbc0-aefad479503d")
 		(property "Reference" "D7"
-			(at 147.32 40.6399 90)
+			(at 148.59 40.6399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6118,16 +7235,17 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 147.32 43.1799 90)
+			(at 148.59 43.1799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 144.78 41.91 0)
+			(at 146.05 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6136,7 +7254,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 144.78 41.91 0)
+			(at 146.05 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6145,7 +7263,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 144.78 41.91 0)
+			(at 146.05 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6154,7 +7272,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 144.78 41.91 0)
+			(at 146.05 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6163,7 +7281,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 144.78 41.91 0)
+			(at 146.05 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6181,6 +7299,12 @@
 			(project "snakey"
 				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
 					(reference "D7")
+					(unit 1)
+				)
+			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -6212,7 +7336,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 88.9 33.02 0)
 			(effects
 				(font
@@ -6258,11 +7382,17 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 44.45 58.42 90)
+		(at 45.72 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6271,7 +7401,7 @@
 		(fields_autoplaced yes)
 		(uuid "835108c9-dec9-4e3d-9096-b3d9d6198917")
 		(property "Reference" "D15"
-			(at 46.99 57.1499 90)
+			(at 48.26 57.1499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6280,16 +7410,17 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 46.99 59.6899 90)
+			(at 48.26 59.6899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 44.45 58.42 0)
+			(at 45.72 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6298,7 +7429,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 44.45 58.42 0)
+			(at 45.72 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6307,7 +7438,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 44.45 58.42 0)
+			(at 45.72 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6316,7 +7447,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 44.45 58.42 0)
+			(at 45.72 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6325,7 +7456,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 44.45 58.42 0)
+			(at 45.72 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6343,6 +7474,12 @@
 			(project "snakey"
 				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
 					(reference "D15")
+					(unit 1)
+				)
+			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -6374,7 +7511,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_2.00u_PCB"
 			(at 252.73 49.53 0)
 			(effects
 				(font
@@ -6420,6 +7557,12 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6448,7 +7591,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB"
 			(at 52.07 83.82 0)
 			(effects
 				(font
@@ -6494,9 +7637,16 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
+		(lib_name "SW_MEC_5G_1")
 		(lib_id "Switch:SW_MEC_5G")
 		(at 38.1 38.1 0)
 		(unit 1)
@@ -6522,7 +7672,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 38.1 33.02 0)
 			(effects
 				(font
@@ -6568,11 +7718,17 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 259.08 92.71 90)
+		(at 260.35 92.71 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6581,7 +7737,7 @@
 		(fields_autoplaced yes)
 		(uuid "8c90a896-6933-40a8-b28d-4130c048f064")
 		(property "Reference" "D47"
-			(at 261.62 91.4399 90)
+			(at 262.89 91.4399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6590,16 +7746,17 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 261.62 93.9799 90)
+			(at 262.89 93.9799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 259.08 92.71 0)
+			(at 260.35 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6608,7 +7765,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 259.08 92.71 0)
+			(at 260.35 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6617,7 +7774,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 259.08 92.71 0)
+			(at 260.35 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6626,7 +7783,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 259.08 92.71 0)
+			(at 260.35 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6635,7 +7792,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 259.08 92.71 0)
+			(at 260.35 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6653,6 +7810,12 @@
 			(project "snakey"
 				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
 					(reference "D47")
+					(unit 1)
+				)
+			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -6684,7 +7847,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.75u_PCB"
 			(at 43.18 67.31 0)
 			(effects
 				(font
@@ -6730,6 +7893,12 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6758,7 +7927,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 168.91 67.31 0)
 			(effects
 				(font
@@ -6804,11 +7973,17 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 106.68 76.2 90)
+		(at 107.95 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6817,7 +7992,7 @@
 		(fields_autoplaced yes)
 		(uuid "979615f9-be7e-48c3-85a3-cd0c9d79eda6")
 		(property "Reference" "D31"
-			(at 109.22 74.9299 90)
+			(at 110.49 74.9299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6826,16 +8001,17 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 109.22 77.4699 90)
+			(at 110.49 77.4699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 106.68 76.2 0)
+			(at 107.95 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6844,7 +8020,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 106.68 76.2 0)
+			(at 107.95 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6853,7 +8029,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 106.68 76.2 0)
+			(at 107.95 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6862,7 +8038,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 106.68 76.2 0)
+			(at 107.95 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6871,7 +8047,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 106.68 76.2 0)
+			(at 107.95 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6892,11 +8068,17 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 57.15 92.71 90)
+		(at 58.42 92.71 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6905,7 +8087,7 @@
 		(fields_autoplaced yes)
 		(uuid "9d08e851-07c0-4614-aaf9-268c974ee155")
 		(property "Reference" "D41"
-			(at 59.69 91.4399 90)
+			(at 60.96 91.4399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6914,16 +8096,17 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 59.69 93.9799 90)
+			(at 60.96 93.9799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 57.15 92.71 0)
+			(at 58.42 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6932,7 +8115,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 57.15 92.71 0)
+			(at 58.42 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6941,7 +8124,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 57.15 92.71 0)
+			(at 58.42 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6950,7 +8133,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 57.15 92.71 0)
+			(at 58.42 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6959,7 +8142,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 57.15 92.71 0)
+			(at 58.42 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6977,6 +8160,12 @@
 			(project "snakey"
 				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
 					(reference "D41")
+					(unit 1)
+				)
+			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -7008,7 +8197,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.50u_PCB"
 			(at 257.81 67.31 0)
 			(effects
 				(font
@@ -7054,11 +8243,17 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 246.38 41.91 90)
+		(at 247.65 41.91 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7067,7 +8262,7 @@
 		(fields_autoplaced yes)
 		(uuid "a94a1d59-1471-4a0f-aa99-f8f1256f4661")
 		(property "Reference" "D13"
-			(at 248.92 40.6399 90)
+			(at 250.19 40.6399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7076,16 +8271,17 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 248.92 43.1799 90)
+			(at 250.19 43.1799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 246.38 41.91 0)
+			(at 247.65 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7094,7 +8290,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 246.38 41.91 0)
+			(at 247.65 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7103,7 +8299,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 246.38 41.91 0)
+			(at 247.65 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7112,7 +8308,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 246.38 41.91 0)
+			(at 247.65 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7121,7 +8317,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 246.38 41.91 0)
+			(at 247.65 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7139,6 +8335,12 @@
 			(project "snakey"
 				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
 					(reference "D13")
+					(unit 1)
+				)
+			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -7170,7 +8372,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 185.42 67.31 0)
 			(effects
 				(font
@@ -7216,11 +8418,18 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
+		(lib_name "1N4148_1")
 		(lib_id "Diode:1N4148")
-		(at 43.18 41.91 90)
+		(at 44.45 41.91 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7229,7 +8438,7 @@
 		(fields_autoplaced yes)
 		(uuid "abcee652-fd3f-486c-a2fc-45be457ebc11")
 		(property "Reference" "D1"
-			(at 45.72 40.6399 90)
+			(at 46.99 40.6399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7238,16 +8447,17 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 45.72 43.1799 90)
+			(at 46.99 43.1799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 43.18 41.91 0)
+			(at 44.45 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7256,7 +8466,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 43.18 41.91 0)
+			(at 44.45 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7265,7 +8475,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 43.18 41.91 0)
+			(at 44.45 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7274,7 +8484,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 43.18 41.91 0)
+			(at 44.45 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7283,7 +8493,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 43.18 41.91 0)
+			(at 44.45 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7301,6 +8511,12 @@
 			(project ""
 				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -7332,7 +8548,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 143.51 49.53 0)
 			(effects
 				(font
@@ -7378,6 +8594,12 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7406,7 +8628,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_6.25u_PCB"
 			(at 137.16 83.82 0)
 			(effects
 				(font
@@ -7452,6 +8674,12 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7480,7 +8708,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 219.71 67.31 0)
 			(effects
 				(font
@@ -7526,11 +8754,17 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 148.59 58.42 90)
+		(at 149.86 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7539,7 +8773,7 @@
 		(fields_autoplaced yes)
 		(uuid "bb133815-77d5-41d4-96da-89e5d5481705")
 		(property "Reference" "D21"
-			(at 151.13 57.1499 90)
+			(at 152.4 57.1499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7548,16 +8782,17 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 151.13 59.6899 90)
+			(at 152.4 59.6899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 148.59 58.42 0)
+			(at 149.86 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7566,7 +8801,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 148.59 58.42 0)
+			(at 149.86 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7575,7 +8810,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 148.59 58.42 0)
+			(at 149.86 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7584,7 +8819,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 148.59 58.42 0)
+			(at 149.86 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7593,7 +8828,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 148.59 58.42 0)
+			(at 149.86 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7611,6 +8846,12 @@
 			(project "snakey"
 				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
 					(reference "D21")
+					(unit 1)
+				)
+			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -7642,7 +8883,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 83.82 67.31 0)
 			(effects
 				(font
@@ -7688,6 +8929,12 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7716,7 +8963,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 58.42 49.53 0)
 			(effects
 				(font
@@ -7762,6 +9009,12 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7790,7 +9043,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 254 83.82 0)
 			(effects
 				(font
@@ -7836,6 +9089,12 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7864,7 +9123,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 207.01 33.02 0)
 			(effects
 				(font
@@ -7910,6 +9169,12 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7938,7 +9203,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 134.62 67.31 0)
 			(effects
 				(font
@@ -7984,11 +9249,17 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 241.3 92.71 90)
+		(at 242.57 92.71 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7997,7 +9268,7 @@
 		(fields_autoplaced yes)
 		(uuid "ca1ce7c5-faa1-4a08-9bbb-24a7c279c153")
 		(property "Reference" "D46"
-			(at 243.84 91.4399 90)
+			(at 245.11 91.4399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8006,16 +9277,17 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 243.84 93.9799 90)
+			(at 245.11 93.9799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 241.3 92.71 0)
+			(at 242.57 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8024,7 +9296,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 241.3 92.71 0)
+			(at 242.57 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8033,7 +9305,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 241.3 92.71 0)
+			(at 242.57 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8042,7 +9314,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 241.3 92.71 0)
+			(at 242.57 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8051,7 +9323,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 241.3 92.71 0)
+			(at 242.57 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8072,11 +9344,17 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 72.39 76.2 90)
+		(at 73.66 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8085,7 +9363,7 @@
 		(fields_autoplaced yes)
 		(uuid "cabaf975-746c-44d3-99a3-875f983e93e4")
 		(property "Reference" "D29"
-			(at 74.93 74.9299 90)
+			(at 76.2 74.9299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8094,16 +9372,17 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 74.93 77.4699 90)
+			(at 76.2 77.4699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 72.39 76.2 0)
+			(at 73.66 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8112,7 +9391,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 72.39 76.2 0)
+			(at 73.66 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8121,7 +9400,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 72.39 76.2 0)
+			(at 73.66 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8130,7 +9409,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 72.39 76.2 0)
+			(at 73.66 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8139,7 +9418,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 72.39 76.2 0)
+			(at 73.66 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8160,11 +9439,17 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 165.1 58.42 90)
+		(at 166.37 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8173,7 +9458,7 @@
 		(fields_autoplaced yes)
 		(uuid "cb6cabd5-624c-44a3-b77e-6eba64af226b")
 		(property "Reference" "D22"
-			(at 167.64 57.1499 90)
+			(at 168.91 57.1499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8182,16 +9467,17 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 167.64 59.6899 90)
+			(at 168.91 59.6899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 165.1 58.42 0)
+			(at 166.37 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8200,7 +9486,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 165.1 58.42 0)
+			(at 166.37 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8209,7 +9495,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 165.1 58.42 0)
+			(at 166.37 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8218,7 +9504,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 165.1 58.42 0)
+			(at 166.37 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8227,7 +9513,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 165.1 58.42 0)
+			(at 166.37 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8245,6 +9531,12 @@
 			(project "snakey"
 				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
 					(reference "D22")
+					(unit 1)
+				)
+			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -8276,7 +9568,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 236.22 83.82 0)
 			(effects
 				(font
@@ -8322,6 +9614,12 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8350,7 +9648,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 92.71 49.53 0)
 			(effects
 				(font
@@ -8396,11 +9694,17 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 182.88 58.42 90)
+		(at 184.15 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8409,7 +9713,7 @@
 		(fields_autoplaced yes)
 		(uuid "ce1af58d-4b74-4d7b-997d-191e79470b7a")
 		(property "Reference" "D23"
-			(at 185.42 57.1499 90)
+			(at 186.69 57.1499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8418,16 +9722,17 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 185.42 59.6899 90)
+			(at 186.69 59.6899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 182.88 58.42 0)
+			(at 184.15 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8436,7 +9741,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 182.88 58.42 0)
+			(at 184.15 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8445,7 +9750,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 182.88 58.42 0)
+			(at 184.15 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8454,7 +9759,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 182.88 58.42 0)
+			(at 184.15 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8463,7 +9768,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 182.88 58.42 0)
+			(at 184.15 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8484,11 +9789,17 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 132.08 58.42 90)
+		(at 133.35 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8497,7 +9808,7 @@
 		(fields_autoplaced yes)
 		(uuid "cf69b78b-fb50-444a-91b5-e2187a78b2df")
 		(property "Reference" "D20"
-			(at 134.62 57.1499 90)
+			(at 135.89 57.1499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8506,16 +9817,17 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 134.62 59.6899 90)
+			(at 135.89 59.6899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 132.08 58.42 0)
+			(at 133.35 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8524,7 +9836,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 132.08 58.42 0)
+			(at 133.35 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8533,7 +9845,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 132.08 58.42 0)
+			(at 133.35 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8542,7 +9854,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 132.08 58.42 0)
+			(at 133.35 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8551,7 +9863,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 132.08 58.42 0)
+			(at 133.35 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8572,11 +9884,17 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 173.99 76.2 90)
+		(at 175.26 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8585,7 +9903,7 @@
 		(fields_autoplaced yes)
 		(uuid "d774bce3-b530-4644-af68-3861f8270255")
 		(property "Reference" "D35"
-			(at 176.53 74.9299 90)
+			(at 177.8 74.9299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8594,16 +9912,17 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 176.53 77.4699 90)
+			(at 177.8 77.4699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 173.99 76.2 0)
+			(at 175.26 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8612,7 +9931,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 173.99 76.2 0)
+			(at 175.26 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8621,7 +9940,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 173.99 76.2 0)
+			(at 175.26 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8630,7 +9949,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 173.99 76.2 0)
+			(at 175.26 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8639,7 +9958,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 173.99 76.2 0)
+			(at 175.26 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8657,6 +9976,12 @@
 			(project "snakey"
 				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
 					(reference "D35")
+					(unit 1)
+				)
+			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -8688,7 +10013,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 71.12 33.02 0)
 			(effects
 				(font
@@ -8734,11 +10059,17 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 161.29 41.91 90)
+		(at 162.56 41.91 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8747,7 +10078,7 @@
 		(fields_autoplaced yes)
 		(uuid "d810a004-9b13-40e1-8648-38cb002ab7fb")
 		(property "Reference" "D8"
-			(at 163.83 40.6399 90)
+			(at 165.1 40.6399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8756,16 +10087,17 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 163.83 43.1799 90)
+			(at 165.1 43.1799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 161.29 41.91 0)
+			(at 162.56 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8774,7 +10106,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 161.29 41.91 0)
+			(at 162.56 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8783,7 +10115,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 161.29 41.91 0)
+			(at 162.56 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8792,7 +10124,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 161.29 41.91 0)
+			(at 162.56 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8801,7 +10133,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 161.29 41.91 0)
+			(at 162.56 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8822,11 +10154,17 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 142.24 92.71 90)
+		(at 143.51 92.71 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8835,7 +10173,7 @@
 		(fields_autoplaced yes)
 		(uuid "d8a5df52-67cb-47e9-ba7d-4eeeaa8e2c06")
 		(property "Reference" "D43"
-			(at 144.78 91.4399 90)
+			(at 146.05 91.4399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8844,16 +10182,17 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 144.78 93.9799 90)
+			(at 146.05 93.9799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 142.24 92.71 0)
+			(at 143.51 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8862,7 +10201,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 142.24 92.71 0)
+			(at 143.51 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8871,7 +10210,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 142.24 92.71 0)
+			(at 143.51 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8880,7 +10219,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 142.24 92.71 0)
+			(at 143.51 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8889,7 +10228,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 142.24 92.71 0)
+			(at 143.51 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8910,11 +10249,17 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 177.8 41.91 90)
+		(at 179.07 41.91 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8923,7 +10268,7 @@
 		(fields_autoplaced yes)
 		(uuid "db402ee2-2296-4b35-bc2c-1c0a6a8067b7")
 		(property "Reference" "D9"
-			(at 180.34 40.6399 90)
+			(at 181.61 40.6399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8932,16 +10277,17 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 180.34 43.1799 90)
+			(at 181.61 43.1799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 177.8 41.91 0)
+			(at 179.07 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8950,7 +10296,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 177.8 41.91 0)
+			(at 179.07 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8959,7 +10305,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 177.8 41.91 0)
+			(at 179.07 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8968,7 +10314,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 177.8 41.91 0)
+			(at 179.07 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8977,7 +10323,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 177.8 41.91 0)
+			(at 179.07 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8995,6 +10341,12 @@
 			(project "snakey"
 				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
 					(reference "D9")
+					(unit 1)
+				)
+			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -9026,7 +10378,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 152.4 67.31 0)
 			(effects
 				(font
@@ -9072,6 +10424,12 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9100,7 +10458,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 210.82 49.53 0)
 			(effects
 				(font
@@ -9146,11 +10504,17 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 123.19 76.2 90)
+		(at 124.46 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9159,7 +10523,7 @@
 		(fields_autoplaced yes)
 		(uuid "e2df85f9-ab1e-4a8a-9aba-428abc0899d0")
 		(property "Reference" "D32"
-			(at 125.73 74.9299 90)
+			(at 127 74.9299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9168,16 +10532,17 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 125.73 77.4699 90)
+			(at 127 77.4699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 123.19 76.2 0)
+			(at 124.46 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9186,7 +10551,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 123.19 76.2 0)
+			(at 124.46 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9195,7 +10560,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 123.19 76.2 0)
+			(at 124.46 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9204,7 +10569,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 123.19 76.2 0)
+			(at 124.46 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9213,7 +10578,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 123.19 76.2 0)
+			(at 124.46 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9234,11 +10599,17 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 208.28 76.2 90)
+		(at 209.55 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9247,7 +10618,7 @@
 		(fields_autoplaced yes)
 		(uuid "e3dde0da-f3d1-46e4-8c23-1be944b153ed")
 		(property "Reference" "D37"
-			(at 210.82 74.9299 90)
+			(at 212.09 74.9299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9256,16 +10627,17 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 210.82 77.4699 90)
+			(at 212.09 77.4699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 208.28 76.2 0)
+			(at 209.55 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9274,7 +10646,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 208.28 76.2 0)
+			(at 209.55 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9283,7 +10655,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 208.28 76.2 0)
+			(at 209.55 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9292,7 +10664,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 208.28 76.2 0)
+			(at 209.55 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9301,7 +10673,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 208.28 76.2 0)
+			(at 209.55 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9319,6 +10691,12 @@
 			(project "snakey"
 				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
 					(reference "D37")
+					(unit 1)
+				)
+			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -9350,7 +10728,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 241.3 33.02 0)
 			(effects
 				(font
@@ -9396,11 +10774,17 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 195.58 41.91 90)
+		(at 196.85 41.91 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9409,7 +10793,7 @@
 		(fields_autoplaced yes)
 		(uuid "eae10ca0-7338-469e-801f-573c56746256")
 		(property "Reference" "D10"
-			(at 198.12 40.6399 90)
+			(at 199.39 40.6399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9418,16 +10802,17 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 198.12 43.1799 90)
+			(at 199.39 43.1799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 195.58 41.91 0)
+			(at 196.85 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9436,7 +10821,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 195.58 41.91 0)
+			(at 196.85 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9445,7 +10830,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 195.58 41.91 0)
+			(at 196.85 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9454,7 +10839,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 195.58 41.91 0)
+			(at 196.85 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9463,7 +10848,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 195.58 41.91 0)
+			(at 196.85 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9484,11 +10869,17 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 78.74 92.71 90)
+		(at 80.01 92.71 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9497,7 +10888,7 @@
 		(fields_autoplaced yes)
 		(uuid "eb6ed46b-9bec-4dd0-b3f5-c08ec47bccd5")
 		(property "Reference" "D42"
-			(at 81.28 91.4399 90)
+			(at 82.55 91.4399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9506,16 +10897,17 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 81.28 93.9799 90)
+			(at 82.55 93.9799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 78.74 92.71 0)
+			(at 80.01 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9524,7 +10916,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 78.74 92.71 0)
+			(at 80.01 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9533,7 +10925,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 78.74 92.71 0)
+			(at 80.01 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9542,7 +10934,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 78.74 92.71 0)
+			(at 80.01 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9551,7 +10943,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 78.74 92.71 0)
+			(at 80.01 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9569,6 +10961,12 @@
 			(project "snakey"
 				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
 					(reference "D42")
+					(unit 1)
+				)
+			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -9600,7 +10998,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 156.21 33.02 0)
 			(effects
 				(font
@@ -9646,11 +11044,17 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 63.5 58.42 90)
+		(at 64.77 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9659,7 +11063,7 @@
 		(fields_autoplaced yes)
 		(uuid "f28d5001-ca4b-4282-961e-fdef1ff57306")
 		(property "Reference" "D16"
-			(at 66.04 57.1499 90)
+			(at 67.31 57.1499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9668,16 +11072,17 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 66.04 59.6899 90)
+			(at 67.31 59.6899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 63.5 58.42 0)
+			(at 64.77 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9686,7 +11091,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 63.5 58.42 0)
+			(at 64.77 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9695,7 +11100,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 63.5 58.42 0)
+			(at 64.77 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9704,7 +11109,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 63.5 58.42 0)
+			(at 64.77 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9713,7 +11118,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 63.5 58.42 0)
+			(at 64.77 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9731,6 +11136,12 @@
 			(project "snakey"
 				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
 					(reference "D16")
+					(unit 1)
+				)
+			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -9762,7 +11173,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB"
 			(at 73.66 83.82 0)
 			(effects
 				(font
@@ -9808,11 +11219,17 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 80.01 58.42 90)
+		(at 81.28 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9821,7 +11238,7 @@
 		(fields_autoplaced yes)
 		(uuid "f576dc7e-ced9-403a-8495-da2cad0099c8")
 		(property "Reference" "D17"
-			(at 82.55 57.1499 90)
+			(at 83.82 57.1499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9830,16 +11247,17 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 82.55 59.6899 90)
+			(at 83.82 59.6899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 80.01 58.42 0)
+			(at 81.28 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9848,7 +11266,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 80.01 58.42 0)
+			(at 81.28 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9857,7 +11275,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 80.01 58.42 0)
+			(at 81.28 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9866,7 +11284,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 80.01 58.42 0)
+			(at 81.28 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9875,7 +11293,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 80.01 58.42 0)
+			(at 81.28 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9893,6 +11311,12 @@
 			(project "snakey"
 				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
 					(reference "D17")
+					(unit 1)
+				)
+			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -9924,7 +11348,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 177.8 49.53 0)
 			(effects
 				(font
@@ -9970,6 +11394,12 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9998,7 +11428,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 105.41 33.02 0)
 			(effects
 				(font
@@ -10044,11 +11474,17 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 215.9 58.42 90)
+		(at 217.17 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10057,7 +11493,7 @@
 		(fields_autoplaced yes)
 		(uuid "fc31f9b2-ab6c-483c-8afe-9ee9939f570e")
 		(property "Reference" "D25"
-			(at 218.44 57.1499 90)
+			(at 219.71 57.1499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10066,16 +11502,17 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 218.44 59.6899 90)
+			(at 219.71 59.6899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 215.9 58.42 0)
+			(at 217.17 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10084,7 +11521,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 215.9 58.42 0)
+			(at 217.17 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10093,7 +11530,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 215.9 58.42 0)
+			(at 217.17 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10102,7 +11539,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 215.9 58.42 0)
+			(at 217.17 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10111,7 +11548,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 215.9 58.42 0)
+			(at 217.17 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10129,6 +11566,12 @@
 			(project "snakey"
 				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
 					(reference "D25")
+					(unit 1)
+				)
+			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -10160,7 +11603,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 67.31 67.31 0)
 			(effects
 				(font
@@ -10206,6 +11649,18 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/1eb2e04a-353f-4c9c-aae7-88e67904211c"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
