@@ -4,10 +4,1009 @@
 	(generator_version "9.0")
 	(uuid "1eb2e04a-353f-4c9c-aae7-88e67904211c")
 	(paper "A4")
-	(lib_symbols)
-	(global_label "Row4"
+	(lib_symbols
+		(symbol "Diode:1N4148"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4148"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "100V 0.15A standard switching diode, DO-35"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?35*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N4148_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4148_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_MEC_5G"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_MEC_5G"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "MEC 5G single pole normally-open tactile switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SW*MEC*5G*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_MEC_5G_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SW_MEC_5G_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(hide yes)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(hide yes)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 138.43 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01afdd5f-bbae-4e76-8288-cc58327858ee")
+	)
+	(junction
+		(at 134.62 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01c446b4-7257-4ae0-8451-a7c66038f124")
+	)
+	(junction
+		(at 226.06 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06f31d76-2388-49e7-bbc2-0acde3276bb2")
+	)
+	(junction
+		(at 52.07 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1385d83c-520e-4939-9e7e-196ba6344f13")
+	)
+	(junction
+		(at 50.8 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15c766fd-9249-4163-a0dd-210257da5c92")
+	)
+	(junction
+		(at 143.51 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19d14c98-6f7c-48ed-8dcb-0b58a5e4c4f1")
+	)
+	(junction
+		(at 90.17 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19f57e33-8239-4c20-a9ba-40aa6d5c4799")
+	)
+	(junction
+		(at 156.21 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ea8a030-dca9-4450-93b1-ef1bbd66db96")
+	)
+	(junction
+		(at 231.14 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a07d5f6-99e4-448c-868f-55a3f5777e7d")
+	)
+	(junction
+		(at 168.91 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a75a571-0422-48e4-9b1c-8f2244780792")
+	)
+	(junction
+		(at 173.99 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "308ef1f9-19e8-4079-819c-587408f4a595")
+	)
+	(junction
+		(at 220.98 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36a1a5a8-a6fb-4e40-aef6-0c2f3b949598")
+	)
+	(junction
+		(at 177.8 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43b1a839-6897-47c9-b7d6-1bc83c97cb1e")
+	)
+	(junction
+		(at 160.02 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "466d5c2b-dd9c-41b1-a292-3e4680f7dbd9")
+	)
+	(junction
+		(at 107.95 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49c4b6c0-3153-4de2-ade7-eeb72018672e")
+	)
+	(junction
+		(at 104.14 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b35015e-4850-431e-99c6-390b674daba1")
+	)
+	(junction
+		(at 195.58 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66d1dd41-2573-42ac-b92a-ad820e22efc4")
+	)
+	(junction
+		(at 247.65 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75814d5f-b4ca-443c-8514-72c1b95d07c4")
+	)
+	(junction
+		(at 54.61 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7cd79aff-e5bc-409d-8afc-39fddca62308")
+	)
+	(junction
+		(at 91.44 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d4d9249-0ea0-4a28-af4c-c13578700051")
+	)
+	(junction
+		(at 86.36 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83aaaca9-772b-4496-a1fc-578dfb50cd1b")
+	)
+	(junction
+		(at 121.92 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "882a5259-3cd4-4656-bb10-afae2ad34d40")
+	)
+	(junction
+		(at 68.58 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88b0209b-9f92-4024-879e-1bb5c4296913")
+	)
+	(junction
+		(at 238.76 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a387f22-c34f-4c05-86c2-18ee90d0f88d")
+	)
+	(junction
+		(at 82.55 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9531d7a6-5a25-4f5b-9df3-d52c868383c0")
+	)
+	(junction
+		(at 151.13 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ad1734f-c04f-4003-a885-603754bd8d7b")
+	)
+	(junction
+		(at 125.73 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9faa1b59-0e83-48d6-b680-20a0c21b6b30")
+	)
+	(junction
+		(at 191.77 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab6413bd-edec-4b3f-89c3-d6781a360b86")
+	)
+	(junction
+		(at 73.66 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2d7c1c6-3b1f-4d23-982b-c6a109fbcbbd")
+	)
+	(junction
+		(at 99.06 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b65c2a86-f7fe-4ad1-acf5-6177879a3624")
+	)
+	(junction
+		(at 209.55 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6ae42a8-9a7d-48cd-9c55-5caecbc3f6e2")
+	)
+	(junction
+		(at 204.47 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b882108c-6f88-456a-8b73-3680b3a73e75")
+	)
+	(junction
+		(at 213.36 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf8e72f1-3171-4281-87e9-7074fe6caf47")
+	)
+	(junction
+		(at 243.84 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d76aa8be-145f-4de0-8354-97bb877a64dc")
+	)
+	(junction
+		(at 116.84 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e16caa26-9afb-44ec-ac60-5298637bc7c5")
+	)
+	(junction
+		(at 186.69 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e230d6f1-13b5-4361-b750-5fc443ce2927")
+	)
+	(junction
+		(at 151.13 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff3176a7-6e59-416a-b9fa-927ef01779e4")
+	)
+	(wire
+		(pts
+			(xy 238.76 99.06) (xy 264.16 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06ad1d10-c235-474f-837a-c10c2033694e")
+	)
+	(wire
+		(pts
+			(xy 125.73 81.28) (xy 143.51 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19ae6c90-bbf1-4192-8e05-cf6316f94fc3")
+	)
+	(wire
+		(pts
+			(xy 73.66 81.28) (xy 91.44 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b25634f-6cdb-4787-ba4d-a98e129d766b")
+	)
+	(wire
+		(pts
+			(xy 243.84 63.5) (xy 261.62 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c795d19-260a-436b-b1c9-f43238bf2097")
+	)
+	(wire
+		(pts
+			(xy 116.84 99.06) (xy 134.62 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cf04259-481d-4b4d-abd1-dc702342bb59")
+	)
+	(wire
+		(pts
+			(xy 33.02 63.5) (xy 50.8 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f419a5d-e5f6-4890-8fa5-7d1196a24f47")
+	)
+	(wire
+		(pts
+			(xy 91.44 81.28) (xy 107.95 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f9fdb21-788b-4c28-a055-70e0ca5c7dab")
+	)
+	(wire
+		(pts
+			(xy 143.51 81.28) (xy 160.02 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41a1cb98-765a-4832-bd7c-fee2771b2a11")
+	)
+	(wire
+		(pts
+			(xy 121.92 63.5) (xy 138.43 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "507b754d-e282-444e-84ae-77df1d68daab")
+	)
+	(wire
+		(pts
+			(xy 151.13 116.84) (xy 226.06 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5579b332-78d7-43b0-a450-8ad416105135")
+	)
+	(wire
+		(pts
+			(xy 86.36 63.5) (xy 104.14 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ab5c60e-8a09-48f2-ba43-e42fa96fb05c")
+	)
+	(wire
+		(pts
+			(xy 220.98 99.06) (xy 238.76 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fe5abc6-cd9c-415b-8eec-f0f89941c8c0")
+	)
+	(wire
+		(pts
+			(xy 195.58 81.28) (xy 213.36 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65bb918d-8c3a-44f0-b1aa-21014d3800ec")
+	)
+	(wire
+		(pts
+			(xy 138.43 63.5) (xy 156.21 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "707a83ba-f08e-480a-a0e0-b7cf430ebbf5")
+	)
+	(wire
+		(pts
+			(xy 68.58 63.5) (xy 86.36 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "797a1b0b-ab82-4d85-a32b-4d70aae45ae2")
+	)
+	(wire
+		(pts
+			(xy 54.61 99.06) (xy 82.55 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d724acf-c2e4-460a-9e77-e48ac7cbf7c9")
+	)
+	(wire
+		(pts
+			(xy 156.21 63.5) (xy 173.99 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c26cc8f-2d28-4f4d-8283-d0bfcb414c23")
+	)
+	(wire
+		(pts
+			(xy 186.69 99.06) (xy 204.47 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d42e2b7-21f1-4a23-a947-96e5241b0401")
+	)
+	(wire
+		(pts
+			(xy 50.8 63.5) (xy 68.58 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93a10e41-c97d-4a8a-8242-305d915b1fef")
+	)
+	(wire
+		(pts
+			(xy 231.14 81.28) (xy 247.65 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9881a22e-7d38-439a-b7ac-6124759f25f6")
+	)
+	(wire
+		(pts
+			(xy 33.02 116.84) (xy 90.17 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fbebeea-3cc6-438f-9a87-0f9ebdc93c4e")
+	)
+	(wire
+		(pts
+			(xy 226.06 63.5) (xy 243.84 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a06c44fa-45e1-44b2-a1f2-fcf341cbc901")
+	)
+	(wire
+		(pts
+			(xy 209.55 63.5) (xy 226.06 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af5344fc-2535-4367-b7d7-95e41707b52a")
+	)
+	(wire
+		(pts
+			(xy 134.62 99.06) (xy 151.13 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b172cdea-f6c5-4064-809a-498c9eea8689")
+	)
+	(wire
+		(pts
+			(xy 173.99 63.5) (xy 191.77 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1a8a763-e867-4e6a-bc4f-798ddca2b6cf")
+	)
+	(wire
+		(pts
+			(xy 33.02 81.28) (xy 52.07 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2e06280-8978-4b37-8f97-cb28c31e6d77")
+	)
+	(wire
+		(pts
+			(xy 82.55 99.06) (xy 99.06 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b380d24c-dd1a-4ac9-adc0-e530caf77d7c")
+	)
+	(wire
+		(pts
+			(xy 151.13 99.06) (xy 168.91 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b42d3f62-c8d1-4c14-ae3c-5c13bf0cd34b")
+	)
+	(wire
+		(pts
+			(xy 104.14 63.5) (xy 121.92 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5b26768-9a7f-420c-9955-7335f4ccfdc6")
+	)
+	(wire
+		(pts
+			(xy 177.8 81.28) (xy 195.58 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b846e7b6-125d-4791-bbb6-b11c477b451a")
+	)
+	(wire
+		(pts
+			(xy 213.36 81.28) (xy 231.14 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba77c7ae-c9a8-4211-a863-5b7d6910f127")
+	)
+	(wire
+		(pts
+			(xy 33.02 99.06) (xy 54.61 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0c10017-93d0-46eb-9314-0d8c75c85da5")
+	)
+	(wire
+		(pts
+			(xy 168.91 99.06) (xy 186.69 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d48bafe9-3dc1-4d9c-852f-8db542a54cd3")
+	)
+	(wire
+		(pts
+			(xy 52.07 81.28) (xy 73.66 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da5ff298-4c88-4b24-83f9-daa93d2cadfc")
+	)
+	(wire
+		(pts
+			(xy 191.77 63.5) (xy 209.55 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd009584-62f1-4de5-aeee-a4c34f292529")
+	)
+	(wire
+		(pts
+			(xy 90.17 116.84) (xy 151.13 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1078c82-c3f8-49ee-a666-600ae89590fd")
+	)
+	(wire
+		(pts
+			(xy 247.65 81.28) (xy 269.24 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0ed4d9f-f53a-4343-9ab5-7b83d4f717a5")
+	)
+	(wire
+		(pts
+			(xy 107.95 81.28) (xy 125.73 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f82281e8-ea43-4ee6-8763-256a49f322ed")
+	)
+	(wire
+		(pts
+			(xy 99.06 99.06) (xy 116.84 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fae401ec-e71b-45d7-b747-fe03871b6499")
+	)
+	(wire
+		(pts
+			(xy 204.47 99.06) (xy 220.98 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc852341-34f1-47fc-97f1-87cc6ae93f17")
+	)
+	(wire
+		(pts
+			(xy 160.02 81.28) (xy 177.8 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fea483c9-5fd3-4939-a93b-389392ff6b47")
+	)
+	(global_label "Col13"
 		(shape input)
-		(at 248.92 92.71 0)
+		(at 256.54 46.99 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15,9 +1014,207 @@
 			)
 			(justify left)
 		)
+		(uuid "0c1a182d-2fa7-4cf4-ad14-d7a5efd332c8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 256.54 38.5016 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Col1"
+		(shape input)
+		(at 45.72 46.99 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0c6afc40-e6de-4d8f-8610-32015f9f228f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 45.72 39.7111 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Row4"
+		(shape output)
+		(at 33.02 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
 		(uuid "1f205f11-a37e-4232-aca0-741f18fe3347")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 256.8642 92.71 0)
+			(at 25.0758 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Col2"
+		(shape input)
+		(at 64.77 46.99 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "28abea2c-6d16-4736-8642-3b428826a72b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.77 39.7111 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Col8"
+		(shape input)
+		(at 168.91 46.99 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3ec7050a-baf9-436b-9308-b5f5a13dd62a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 168.91 39.7111 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Col3"
+		(shape input)
+		(at 81.28 46.99 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4309e396-2683-4f2f-abcc-313101762e28")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 81.28 39.7111 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Col11"
+		(shape input)
+		(at 220.98 46.99 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5a185e33-6424-4e01-a01e-f35e77fa0b14")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 220.98 38.5016 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Col7"
+		(shape input)
+		(at 151.13 46.99 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "67ec6048-8e1a-4e6a-86a3-2a5e058af44a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.13 39.7111 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Col6"
+		(shape input)
+		(at 132.08 46.99 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6f82f798-6411-478b-a33c-5b0cc8ecf8e6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 132.08 39.7111 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Col12"
+		(shape input)
+		(at 238.76 46.99 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "70104875-be98-4303-b765-6070d47fa0b6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 238.76 38.5016 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28,8 +1225,30 @@
 		)
 	)
 	(global_label "Row2"
+		(shape output)
+		(at 33.02 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "807ae1c9-c3ce-47df-9d70-ad8776695a79")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.0758 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Col9"
 		(shape input)
-		(at 248.92 72.39 0)
+		(at 186.69 46.99 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -37,9 +1256,31 @@
 			)
 			(justify left)
 		)
-		(uuid "807ae1c9-c3ce-47df-9d70-ad8776695a79")
+		(uuid "a2bac398-eab9-43df-b1ee-0824e747a4c7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 256.8642 72.39 0)
+			(at 186.69 39.7111 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Col5"
+		(shape input)
+		(at 116.84 46.99 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a7d33973-5e9c-45ec-9540-ed0848454ea2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 116.84 39.7111 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50,8 +1291,52 @@
 		)
 	)
 	(global_label "Row3"
+		(shape output)
+		(at 33.02 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b216bffa-d3bb-4f62-96e7-776c2770adcf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.0758 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Row1"
+		(shape output)
+		(at 33.02 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "db2886aa-92d0-4535-ad76-2eaf556363b0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.0758 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Col10"
 		(shape input)
-		(at 248.92 82.55 0)
+		(at 204.47 46.99 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -59,9 +1344,9 @@
 			)
 			(justify left)
 		)
-		(uuid "b216bffa-d3bb-4f62-96e7-776c2770adcf")
+		(uuid "eed6e2a7-8bb0-489e-a6cf-d3f874579cf3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 256.8642 82.55 0)
+			(at 204.47 38.5016 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -71,9 +1356,9 @@
 			)
 		)
 	)
-	(global_label "Row1"
+	(global_label "Col4"
 		(shape input)
-		(at 248.92 62.23 0)
+		(at 97.79 46.99 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -81,15 +1366,6657 @@
 			)
 			(justify left)
 		)
-		(uuid "db2886aa-92d0-4535-ad76-2eaf556363b0")
+		(uuid "f58b70fa-3acb-4076-a8ae-fabe877f6647")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 256.8642 62.23 0)
+			(at 97.79 39.7111 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 82.55 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "008076d1-386b-4455-9eb9-27a351d7d55e")
+		(property "Reference" "D28"
+			(at 85.09 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 85.09 96.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 82.55 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 82.55 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 82.55 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 82.55 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 82.55 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fcd4c3f2-9209-456d-b413-139696d179b6")
+		)
+		(pin "2"
+			(uuid "d7640e6e-8983-4cca-8564-76949d70e0ab")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "D28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 215.9 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01bc7662-4cb2-4fe3-85a8-756b6aee6fbe")
+		(property "Reference" "SW36"
+			(at 215.9 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "."
+			(at 215.9 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 215.9 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 215.9 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1283874-a019-4582-85c6-1a3c5e5027d7")
+		)
+		(pin "4"
+			(uuid "cb8a630b-f5be-4cf6-bdd2-9ac1c38a41b3")
+		)
+		(pin "3"
+			(uuid "90e7cac8-4057-46c9-9537-922e333520fd")
+		)
+		(pin "2"
+			(uuid "f2d98f61-354d-4b2d-b9fb-7f9c69b92036")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "SW36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 99.06 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "04136743-647d-48ef-ac51-885bfc47e3fc")
+		(property "Reference" "SW4"
+			(at 99.06 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "e"
+			(at 99.06 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 99.06 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 99.06 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6546aa78-fd1b-403f-8880-f00c35d99819")
+		)
+		(pin "4"
+			(uuid "98e38fb8-35e4-4186-ac12-4727b03a3caa")
+		)
+		(pin "3"
+			(uuid "bd1a894a-df00-4e3f-848f-1eb61aae2278")
+		)
+		(pin "2"
+			(uuid "a2ead8e7-06cc-4553-a823-57861248b916")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 191.77 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06bce936-471b-455b-8523-2c26d5d77912")
+		(property "Reference" "D9"
+			(at 194.31 58.4199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 194.31 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 191.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 191.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 191.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 191.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 191.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "019f3253-4cc4-4ea8-abc6-f475cae45287")
+		)
+		(pin "2"
+			(uuid "ffbc979b-f292-47d4-8dce-5daed4022b78")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 138.43 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07566aed-a5e2-4ab8-864c-b41bfc517659")
+		(property "Reference" "SW19"
+			(at 138.43 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "g"
+			(at 138.43 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 138.43 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 138.43 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25d1cf2d-f6ad-4c3f-ba41-dc0ab31e6995")
+		)
+		(pin "4"
+			(uuid "9abff21b-0705-4637-a072-488761fc3d27")
+		)
+		(pin "3"
+			(uuid "b2857910-20ee-4e92-a0f4-d07b723016b1")
+		)
+		(pin "2"
+			(uuid "6b24299e-a9cc-4abf-9dad-613f0dacd308")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "SW19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 259.08 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08a3e4a1-4046-4a2b-abf9-fa42c29e9219")
+		(property "Reference" "SW38"
+			(at 259.08 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BACKSPACE"
+			(at 259.08 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 259.08 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 259.08 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97a50edc-c3a8-4166-bdb3-4d75988e19b1")
+		)
+		(pin "4"
+			(uuid "408991a7-484e-4cb3-a43d-2d9e5ef0b271")
+		)
+		(pin "3"
+			(uuid "b57b00a9-e836-44ce-adb9-3b3a7ccb37a1")
+		)
+		(pin "2"
+			(uuid "a9b7359b-63f1-42d9-b172-1be5fc10cc2d")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "SW38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 77.47 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0954338c-868c-4715-a126-cc7e0ed01875")
+		(property "Reference" "SW28"
+			(at 77.47 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "z"
+			(at 77.47 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 77.47 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 77.47 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19fc3ffc-9af8-40e9-a73b-7aa8e41500d8")
+		)
+		(pin "4"
+			(uuid "7ac68ef8-29dc-4940-8731-3dba3f45b33a")
+		)
+		(pin "3"
+			(uuid "db371df2-6490-4cee-a019-ffa9ae742bac")
+		)
+		(pin "2"
+			(uuid "2c9926d6-a0c3-4072-b9c4-f65aec873103")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "SW28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 256.54 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b555795-9718-4b2f-9058-b7991b72eef0")
+		(property "Reference" "SW13"
+			(at 256.54 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "]"
+			(at 256.54 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 256.54 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 256.54 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8826629d-11e2-4ba3-a56c-bcf8b997def4")
+		)
+		(pin "4"
+			(uuid "231554bd-a58f-48d9-9906-b211505136bf")
+		)
+		(pin "3"
+			(uuid "81f23522-40b8-46b4-84e4-8c19c04e5964")
+		)
+		(pin "2"
+			(uuid "f3be3a63-139a-4795-851f-530aa4348942")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "SW13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 172.72 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10ecb6e0-e316-47e8-858a-532d92a9cec5")
+		(property "Reference" "SW21"
+			(at 172.72 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "j"
+			(at 172.72 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 172.72 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 172.72 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3b3afb4-7498-4845-bb76-110b7c998e6e")
+		)
+		(pin "4"
+			(uuid "6fedfb9c-ffa8-4932-be48-b8605aff2f99")
+		)
+		(pin "3"
+			(uuid "e425d09c-5b1f-4b37-a83d-8b7cc7e8fda6")
+		)
+		(pin "2"
+			(uuid "a68cf2e5-2944-41ef-89ee-1f9815a16d98")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "SW21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 220.98 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1904bcee-3b09-4cda-89c8-b1db10ab033d")
+		(property "Reference" "SW11"
+			(at 220.98 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "p"
+			(at 220.98 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 220.98 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 220.98 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc9bf132-2df8-4576-b2be-4b3cb0857605")
+		)
+		(pin "4"
+			(uuid "6714a22b-5fc6-4a09-9cfb-fb6f4bb6ca9c")
+		)
+		(pin "3"
+			(uuid "597a0457-27f8-46a4-8206-703980da8f93")
+		)
+		(pin "2"
+			(uuid "b14ba05c-899b-4920-b65a-2567ea842245")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "SW11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 73.66 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ac80fb4-4869-4b83-8340-df466c2c0ebf")
+		(property "Reference" "D15"
+			(at 76.2 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 76.2 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 73.66 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 73.66 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 73.66 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 73.66 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 73.66 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5fe3499e-cac7-4481-bc81-4ae595cdf42d")
+		)
+		(pin "2"
+			(uuid "2b378c54-9a8f-493f-8a14-b3afac1254ea")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 209.55 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d6e1c40-049f-4ea5-9b0a-7c3323032412")
+		(property "Reference" "D10"
+			(at 212.09 58.4199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 212.09 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 209.55 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 209.55 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 209.55 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 209.55 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 209.55 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af517764-0293-4a97-870b-fc1d5294971a")
+		)
+		(pin "2"
+			(uuid "3c81c9a2-2149-4614-bce5-e1a6f3f1cc31")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 220.98 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1dc727ce-e79f-44ad-8b19-99f6391266b6")
+		(property "Reference" "D36"
+			(at 223.52 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 223.52 96.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 220.98 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 220.98 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 220.98 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 220.98 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 220.98 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b8f4447-bbc0-4ce6-82c2-c2d4cd4afb36")
+		)
+		(pin "2"
+			(uuid "7375c939-94a0-48be-a27c-d8656a948d4d")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "D36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 186.69 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f6bde33-dfed-4f97-b3e8-b909c62bca46")
+		(property "Reference" "SW9"
+			(at 186.69 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "i"
+			(at 186.69 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 186.69 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 186.69 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9c1e76b-0fc8-4ccb-b557-be3de7651e28")
+		)
+		(pin "4"
+			(uuid "7a52a14d-a2e9-4366-952f-96194a7c29cc")
+		)
+		(pin "3"
+			(uuid "b514a822-a600-4cc6-8bc8-3d8ae0b37d13")
+		)
+		(pin "2"
+			(uuid "88f7fefb-46d7-4596-a66b-5554cadc2c8b")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "SW9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 99.06 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "205a5e57-8277-46db-9635-2e3777bc477e")
+		(property "Reference" "D29"
+			(at 101.6 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 101.6 96.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 99.06 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 99.06 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 99.06 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 99.06 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 99.06 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7ccd3800-80c0-41c4-89e3-877d428c3f55")
+		)
+		(pin "2"
+			(uuid "8d886efb-fa16-4ed5-8729-5e1d4576c2b4")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "D29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 49.53 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21217a48-b20c-4878-8791-26e2fcdb2c34")
+		(property "Reference" "SW27"
+			(at 49.53 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SHIFT"
+			(at 49.53 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 49.53 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 49.53 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "033beec1-9cd4-4ad2-867a-51a6a14e062e")
+		)
+		(pin "4"
+			(uuid "272d3caf-78a7-4633-aef8-af096b4a6b3e")
+		)
+		(pin "3"
+			(uuid "50d57013-469d-485a-89eb-e36e8cc0cca7")
+		)
+		(pin "2"
+			(uuid "72bf5f81-bfce-421f-a513-421685e3473f")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "SW27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 86.36 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26040ed9-9205-42f1-990b-7d5bf1bac5ce")
+		(property "Reference" "D3"
+			(at 88.9 58.4199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 88.9 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 86.36 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 86.36 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 86.36 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 86.36 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 86.36 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aceba202-af24-480d-af6f-8f016304ea24")
+		)
+		(pin "2"
+			(uuid "cf12cf26-1956-47f5-be33-9d35a444d112")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 226.06 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3cd2cb6d-a69a-42b3-92dc-c2a9ab50e893")
+		(property "Reference" "D11"
+			(at 228.6 58.4199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 228.6 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 226.06 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 226.06 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 226.06 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 226.06 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 226.06 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba88ce3a-b80a-43a3-aa6b-3d85f9b6348a")
+		)
+		(pin "2"
+			(uuid "54a70e34-260a-4457-ac0b-a2c5d5a3d1d1")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 134.62 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f27e2bc-f994-4118-a26c-230d4ae1f9be")
+		(property "Reference" "D31"
+			(at 137.16 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 137.16 96.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 134.62 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 134.62 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 134.62 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 134.62 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 134.62 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6355f075-12f0-4b05-b788-253773a72149")
+		)
+		(pin "2"
+			(uuid "7a5e43d2-7aea-4b7e-bd07-b212ff1ecb1b")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "D31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 226.06 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40bb3e02-4ea6-47f0-9640-d4b1c1166bc3")
+		(property "Reference" "D41"
+			(at 228.6 111.7599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 228.6 114.2999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 226.06 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 226.06 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 226.06 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 226.06 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 226.06 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cae3b757-bd46-470d-8c9b-9606b2b50387")
+		)
+		(pin "2"
+			(uuid "5825fc7c-acb3-4aac-94d1-82de5f7ffb3b")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "D41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 154.94 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "425039ba-1a72-4f9b-bfe8-b2299207d652")
+		(property "Reference" "SW20"
+			(at 154.94 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "h"
+			(at 154.94 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 154.94 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 154.94 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "074dbfb4-157a-4ee4-825a-32ba6361fd37")
+		)
+		(pin "4"
+			(uuid "e4062243-2e6f-44eb-a108-55cb88f4e9c5")
+		)
+		(pin "3"
+			(uuid "a63bfa99-dd2e-4fac-a957-bd3d27fde1ff")
+		)
+		(pin "2"
+			(uuid "cec114ce-50c8-46ad-8aa6-ef73b485a590")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "SW20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 213.36 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48d660e9-21e6-4879-a85a-2ad40cf3920f")
+		(property "Reference" "D23"
+			(at 215.9 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 215.9 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 213.36 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 213.36 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 213.36 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 213.36 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 213.36 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68789138-4a52-4503-92d1-1e5250dd87f2")
+		)
+		(pin "2"
+			(uuid "1391f697-1482-4845-b772-f3d85f6eb7be")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 226.06 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e97c5a6-58f4-47c6-a670-2dc165f634a5")
+		(property "Reference" "SW24"
+			(at 226.06 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ";"
+			(at 226.06 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 226.06 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 226.06 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9428e8c5-658e-4d3e-bb56-3eeb30ccc72f")
+		)
+		(pin "4"
+			(uuid "1772f04d-dcd8-465c-85c8-baee08e1447b")
+		)
+		(pin "3"
+			(uuid "9ca66834-2844-4323-b47c-4e1df396481f")
+		)
+		(pin "2"
+			(uuid "9740475f-9e77-4e99-b9f5-ab07d6664ccf")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "SW24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 81.28 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f3f886d-234a-4fb7-b08d-8f8ea901a9ae")
+		(property "Reference" "SW3"
+			(at 81.28 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "w"
+			(at 81.28 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 81.28 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 81.28 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "664551ea-5c71-429d-9307-ec9f2552dc33")
+		)
+		(pin "4"
+			(uuid "de6015e1-982f-45dc-91e8-dc698a286a13")
+		)
+		(pin "3"
+			(uuid "007094df-a61d-40b4-a54c-cb6fe126c393")
+		)
+		(pin "2"
+			(uuid "41fce39b-56b4-4f12-ac5d-6c1ea6352b19")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 125.73 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50394607-3b6c-4129-988d-0ff515ea2b54")
+		(property "Reference" "D18"
+			(at 128.27 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 128.27 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 125.73 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 125.73 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 125.73 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 125.73 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 125.73 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c043f77-60fe-47d4-9cfa-24ac9997f950")
+		)
+		(pin "2"
+			(uuid "b60e4581-5bff-4269-acb0-1d771c31fd21")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 233.68 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54797ffc-049d-4a4a-8121-95ccc732fcb9")
+		(property "Reference" "SW37"
+			(at 233.68 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "/"
+			(at 233.68 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 233.68 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 233.68 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fabe01f1-7060-4089-af85-dc4b3eb89b63")
+		)
+		(pin "4"
+			(uuid "c74da06e-3e70-4965-a366-c363dc2b2c4a")
+		)
+		(pin "3"
+			(uuid "77a8a9da-af2f-429e-becc-38fa6e936924")
+		)
+		(pin "2"
+			(uuid "0754a329-44fa-4008-bc56-97377821e960")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "SW37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 116.84 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54d85e09-6033-491d-bd71-4c992071aee6")
+		(property "Reference" "SW5"
+			(at 116.84 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "r"
+			(at 116.84 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 116.84 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 116.84 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6b42592-cd79-4185-9346-dddb81b300c7")
+		)
+		(pin "4"
+			(uuid "cdbc8381-de45-4b8c-b7f2-d59dd23d614f")
+		)
+		(pin "3"
+			(uuid "2ac4e546-b3ba-424d-838c-932cac982455")
+		)
+		(pin "2"
+			(uuid "a084d173-5189-4ad4-9ef8-601400a19ad4")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 160.02 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f5460e0-5a45-421e-9c2a-8b4e9938a257")
+		(property "Reference" "D20"
+			(at 162.56 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 162.56 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 160.02 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 160.02 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 160.02 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 160.02 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 160.02 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "67845e60-63cc-46c3-9a73-55385b548aa6")
+		)
+		(pin "2"
+			(uuid "6c70116a-5c76-4f5c-8d71-cd03de6fbae1")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 199.39 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63a84c68-5454-474f-b4ee-28d2a6b26036")
+		(property "Reference" "SW35"
+			(at 199.39 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ","
+			(at 199.39 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 199.39 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 199.39 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d07ec78f-6a3b-45c5-b64b-812b8d92dfdd")
+		)
+		(pin "4"
+			(uuid "83f07007-26f6-4e58-a132-8e9c0d96c20f")
+		)
+		(pin "3"
+			(uuid "41165fe5-6f69-4881-b416-4fecdc422400")
+		)
+		(pin "2"
+			(uuid "0d56c0f0-7582-49f5-8025-5b601d2bd8f9")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "SW35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 111.76 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64b1663b-fbc9-4fe4-83ae-615c33bc1999")
+		(property "Reference" "SW30"
+			(at 111.76 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "c"
+			(at 111.76 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 111.76 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 111.76 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca4e65e4-1835-4c1c-b3c9-27b68be26e76")
+		)
+		(pin "4"
+			(uuid "2e8683d9-f848-4e4e-ae73-88569a848c29")
+		)
+		(pin "3"
+			(uuid "689cf79e-518e-4ef9-9e17-5a7df4f51eef")
+		)
+		(pin "2"
+			(uuid "ec00080f-d7ab-48e7-abf4-d921620230ac")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "SW30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 204.47 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "651d7a12-2d1a-4179-8ab9-f49174a83f64")
+		(property "Reference" "D35"
+			(at 207.01 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 207.01 96.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 204.47 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 204.47 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 204.47 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 204.47 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 204.47 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68871687-88a0-401e-a71c-0e9b93df42ad")
+		)
+		(pin "2"
+			(uuid "edca84f0-c5be-4175-8bd9-a0d21fbb38cc")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "D35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 231.14 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66cb79e4-611b-4266-9fcc-f0606c64901a")
+		(property "Reference" "D24"
+			(at 233.68 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 233.68 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 231.14 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 231.14 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 231.14 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 231.14 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 231.14 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44b75386-95b6-4859-ba14-e09309b2b8f8")
+		)
+		(pin "2"
+			(uuid "5e1d61e7-8f32-4b23-aba3-a862db92cf35")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 264.16 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a9d5dc1-31d2-44a9-bddf-bde043e86413")
+		(property "Reference" "SW26"
+			(at 264.16 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ENTER"
+			(at 264.16 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 264.16 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 264.16 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d471058-6152-458e-a0fb-7a3df3010805")
+		)
+		(pin "4"
+			(uuid "43721f59-6419-4874-a307-751aa9cb44e9")
+		)
+		(pin "3"
+			(uuid "a59857b8-0a33-4c3a-8447-e301ccb66f8c")
+		)
+		(pin "2"
+			(uuid "ff782319-d655-4081-813f-3059afad387f")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "SW26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 68.58 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6dfdb8c4-937f-4678-a93c-f43c83261a97")
+		(property "Reference" "SW15"
+			(at 68.58 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "a"
+			(at 68.58 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 68.58 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 68.58 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb86fe95-3290-46fa-83a6-7807203d708f")
+		)
+		(pin "4"
+			(uuid "4f75158e-0cea-4a8a-b6ed-a9995b81bf4e")
+		)
+		(pin "3"
+			(uuid "21c9ef20-0fc9-47eb-a858-0fab7a2e148a")
+		)
+		(pin "2"
+			(uuid "9b180684-0423-4233-b52b-e633d93aa708")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "SW15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 102.87 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f5ad7b7-29eb-4e6a-b149-0d383473fab5")
+		(property "Reference" "SW17"
+			(at 102.87 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "d"
+			(at 102.87 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 102.87 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 102.87 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5a982ac-b8a5-499d-a779-764305c09901")
+		)
+		(pin "4"
+			(uuid "ee57f9a0-8e26-406e-9dce-85d534668e01")
+		)
+		(pin "3"
+			(uuid "aa796337-4959-4042-a3aa-5dce299bb25a")
+		)
+		(pin "2"
+			(uuid "2dc9a394-b7f9-4e19-bb80-5b9f54eeb8c3")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "SW17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 186.69 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80ff37e5-2704-4947-8da8-b7f0d18358b1")
+		(property "Reference" "D34"
+			(at 189.23 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 189.23 96.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 186.69 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 186.69 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 186.69 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 186.69 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 186.69 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc280848-c161-4cdd-84f5-1a6941335ef0")
+		)
+		(pin "2"
+			(uuid "af624809-3a0b-4266-9f68-b977d702ab99")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "D34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 243.84 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81cd5710-a9c9-449f-9846-11ffd1c56acc")
+		(property "Reference" "D12"
+			(at 246.38 58.4199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 246.38 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 243.84 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 243.84 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 243.84 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 243.84 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 243.84 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1f369ff-c6ad-4d8f-b043-b3e2c9727640")
+		)
+		(pin "2"
+			(uuid "554be7a3-e48e-4927-a052-1650c3c03d07")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 195.58 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82cbd8c5-ef09-4e87-b41b-8899d8629a60")
+		(property "Reference" "D22"
+			(at 198.12 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 198.12 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 195.58 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 195.58 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 195.58 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 195.58 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 195.58 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0eaac5ca-32f1-44ea-96ef-1d4e367b63b8")
+		)
+		(pin "2"
+			(uuid "a4057529-ffbc-4b44-8697-27db5b5e0ddf")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "D22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 45.72 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8730e81d-fff2-46df-90e8-57bedd3f64e2")
+		(property "Reference" "SW1"
+			(at 45.72 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ESC"
+			(at 45.72 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 45.72 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 45.72 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b29ade01-0e7c-4b08-ae29-6deae9b3ec7d")
+		)
+		(pin "4"
+			(uuid "b9fac180-034c-4904-8189-b31af23b02d9")
+		)
+		(pin "3"
+			(uuid "73266ba1-0136-45d5-b037-578317717dca")
+		)
+		(pin "2"
+			(uuid "bfa8cf42-9ed5-4909-98b8-5e0e570075e0")
+		)
+		(instances
+			(project ""
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 261.62 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88f50b28-b2f0-44c3-a2fe-7b05613b5866")
+		(property "Reference" "D13"
+			(at 264.16 58.4199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 264.16 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 261.62 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 261.62 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 261.62 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 261.62 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 261.62 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f29007d-3979-4ce0-966a-8fb7311eabe3")
+		)
+		(pin "2"
+			(uuid "e04df31b-beed-4b08-88dc-8ed1d630a3a6")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 247.65 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8aec456d-3104-43bc-bb98-c33cabd1da7b")
+		(property "Reference" "D25"
+			(at 250.19 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 250.19 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 247.65 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 247.65 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 247.65 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 247.65 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 247.65 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dedf9d54-55d0-4026-a316-95b2bfcff93d")
+		)
+		(pin "2"
+			(uuid "e5597bce-67cf-4158-98bf-416f92beecf4")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "D25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 143.51 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "930fca1a-494f-4e5f-a1cf-ce192490fffb")
+		(property "Reference" "D19"
+			(at 146.05 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 146.05 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 143.51 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 143.51 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 143.51 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 143.51 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 143.51 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a593b274-9dc7-402b-a9be-71b8f9a86899")
+		)
+		(pin "2"
+			(uuid "f7b26cf0-bf11-4b49-8957-29a35df706bc")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 151.13 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9363d26a-ad07-4bec-ae81-209c29242633")
+		(property "Reference" "D40"
+			(at 153.67 111.7599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 153.67 114.2999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 151.13 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 151.13 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 151.13 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 151.13 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 151.13 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f4a5875-704b-4c1a-9c33-e1cbd3778143")
+		)
+		(pin "2"
+			(uuid "a370296b-1418-4d7d-91b2-fbb74c75a89b")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "D40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 173.99 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1acdbb4-cdc2-481d-8a24-1a3412e7ff13")
+		(property "Reference" "D8"
+			(at 176.53 58.4199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 176.53 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 173.99 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 173.99 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 173.99 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 173.99 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 173.99 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d87d724-1ac0-4027-8373-15cb82179e9b")
+		)
+		(pin "2"
+			(uuid "21b90fc2-e73f-4c37-9e9c-4de047281307")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 204.47 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1f11b91-ca4a-4989-b415-4fc9761b5d57")
+		(property "Reference" "SW10"
+			(at 204.47 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "o"
+			(at 204.47 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 204.47 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 204.47 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "733180b8-9d86-4745-9c32-2fe8ea977964")
+		)
+		(pin "4"
+			(uuid "8a52f0bc-743c-49fe-a685-e7f98b7e8bab")
+		)
+		(pin "3"
+			(uuid "53d55f23-00da-4e95-b7ad-2ba5162f3584")
+		)
+		(pin "2"
+			(uuid "eaa94cb7-07bf-4fb5-ab17-20e346076bcc")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "SW10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 129.54 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5a7b718-ece2-476a-b2e9-86bcfbdd9222")
+		(property "Reference" "SW31"
+			(at 129.54 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "v"
+			(at 129.54 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 129.54 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 129.54 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36ff6ffd-0cd1-4bf5-8a86-f3e96738ba45")
+		)
+		(pin "4"
+			(uuid "754c8f6b-fd82-4e86-b0af-3349a75e0a49")
+		)
+		(pin "3"
+			(uuid "36bca3f1-7ade-4586-8490-282b96b60c33")
+		)
+		(pin "2"
+			(uuid "055c34be-cf6b-4002-8b4f-58100d2e1145")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "SW31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 91.44 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a74de3fd-1b4e-4c19-9fee-6f4a5a120264")
+		(property "Reference" "D16"
+			(at 93.98 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 93.98 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 91.44 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 91.44 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 91.44 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 91.44 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 91.44 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42e78d10-1695-47d5-a35a-60a8ec00ab07")
+		)
+		(pin "2"
+			(uuid "69d66a1b-1952-4750-a00c-52e79a343051")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 85.09 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab551dc4-677e-4562-a413-d60512cc9db9")
+		(property "Reference" "SW39"
+			(at 85.09 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CTRL"
+			(at 85.09 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 85.09 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 85.09 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eeaa6ea6-ebb0-41dc-b26a-92636667df6c")
+		)
+		(pin "4"
+			(uuid "f5633d21-66d5-4ff8-ba25-199c6e8c0a99")
+		)
+		(pin "3"
+			(uuid "de493f1e-cfe0-4a86-af4f-c0f9770471b5")
+		)
+		(pin "2"
+			(uuid "c455b7fa-e8c9-4b07-85a4-80def901db0e")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "SW39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 50.8 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "abcee652-fd3f-486c-a2fc-45be457ebc11")
+		(property "Reference" "D1"
+			(at 53.34 58.4199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 53.34 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 50.8 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 50.8 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 50.8 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 50.8 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 50.8 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f0b5796-5862-4b1e-b733-7529ec38c5ae")
+		)
+		(pin "2"
+			(uuid "49f58ef6-3a59-4272-a67f-2106ca421be8")
+		)
+		(instances
+			(project ""
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 151.13 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "acbd12c9-aaa1-4fc2-8b36-2fe2f8d957b2")
+		(property "Reference" "D32"
+			(at 153.67 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 153.67 96.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 151.13 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 151.13 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 151.13 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 151.13 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 151.13 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f01496e5-c59e-4f2c-abdc-09ad18be52f2")
+		)
+		(pin "2"
+			(uuid "88b2ef57-9864-472c-831b-005632a6141e")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "D32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 190.5 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0e1d49f-4f73-43c6-8ae6-422ae982b01f")
+		(property "Reference" "SW22"
+			(at 190.5 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "k"
+			(at 190.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 190.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 190.5 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6cf3a8eb-93d2-4789-a24a-1bb9c7e39901")
+		)
+		(pin "4"
+			(uuid "97ac3fdd-1215-4a9d-9c73-b8671244d112")
+		)
+		(pin "3"
+			(uuid "f741e1ae-9591-42d9-a306-0d7bccbfdbe8")
+		)
+		(pin "2"
+			(uuid "cda87166-a492-4d72-be53-975313665cd1")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "SW22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 63.5 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba4cff01-d6c0-4b11-8454-4091a1b03cf7")
+		(property "Reference" "SW2"
+			(at 63.5 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "q"
+			(at 63.5 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 63.5 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 63.5 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd4a42a3-dca9-4bf7-9ff0-539d61b68b91")
+		)
+		(pin "4"
+			(uuid "3fc090c4-abdb-48ec-86d4-3b92dd00382a")
+		)
+		(pin "3"
+			(uuid "b0157d13-6fd3-4d50-8546-eca43c017d92")
+		)
+		(pin "2"
+			(uuid "86941135-7e72-4bbd-b540-4136a8224df4")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 120.65 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba874ed0-fb6e-41e5-a81e-85fe39fee7e5")
+		(property "Reference" "SW18"
+			(at 120.65 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "f"
+			(at 120.65 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 120.65 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 120.65 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9af0dd83-49c8-43cb-96ed-573d23168a02")
+		)
+		(pin "4"
+			(uuid "c473da6b-fb33-4dfa-b45a-a28f4aee5536")
+		)
+		(pin "3"
+			(uuid "58ee11c2-60d3-47b4-b09f-0e1f863081a8")
+		)
+		(pin "2"
+			(uuid "9fac7cb4-acd2-4a98-b8eb-92469ad22be7")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "SW18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 52.07 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf0aaf82-756a-4e74-853d-be30aa1c5e2f")
+		(property "Reference" "D14"
+			(at 54.61 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 54.61 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 52.07 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 52.07 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 52.07 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 52.07 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 52.07 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba0bfea7-4aa1-435f-ba60-a5b5b207e992")
+		)
+		(pin "2"
+			(uuid "06c6ecc6-f317-4f55-aaea-f7401a050ff1")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 133.35 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c28864c9-12d1-4616-8d48-521a5ee2ca60")
+		(property "Reference" "SW6"
+			(at 133.35 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "t"
+			(at 133.35 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 133.35 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 133.35 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84f61ccf-190f-4e23-b00c-c7374fee7ede")
+		)
+		(pin "4"
+			(uuid "a94ba2b0-085c-4646-b212-4c80d3f3cb77")
+		)
+		(pin "3"
+			(uuid "39809b9f-41e7-49ca-bd55-6da85bbf88d8")
+		)
+		(pin "2"
+			(uuid "f98f90e7-78c8-402a-985a-8e79094aa57f")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 220.98 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c951568e-7790-4002-91b2-3e11d092d39d")
+		(property "Reference" "SW41"
+			(at 220.98 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ENTER"
+			(at 220.98 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 220.98 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 220.98 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5df51025-efd0-47cb-8057-caa7eb586726")
+		)
+		(pin "4"
+			(uuid "339f7cb3-488a-4067-ae5a-f776f2464d9d")
+		)
+		(pin "3"
+			(uuid "72a2af75-62ad-4687-aabb-4672c1952c62")
+		)
+		(pin "2"
+			(uuid "a0d6a845-fd11-4a3c-9c45-f021d69bca6b")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "SW41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 146.05 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9ca1bb2-1cf8-4ccd-b686-7707c9cec921")
+		(property "Reference" "SW40"
+			(at 146.05 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SPACE"
+			(at 146.05 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 146.05 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 146.05 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70ec9e18-3e8f-4a7e-957a-d34cbd52170f")
+		)
+		(pin "4"
+			(uuid "a8dca58a-9a5d-44f2-aa73-95139531f74b")
+		)
+		(pin "3"
+			(uuid "30d20462-5b80-41a9-a5cd-d3bcf9bfec43")
+		)
+		(pin "2"
+			(uuid "51534f69-77f0-4ea4-8977-4a3f0caa9369")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "SW40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 163.83 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc60eee4-c960-4788-9c1a-69b162304555")
+		(property "Reference" "SW33"
+			(at 163.83 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "n"
+			(at 163.83 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 163.83 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 163.83 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "26472a0c-5763-4a53-9d82-cf5b00b49f95")
+		)
+		(pin "4"
+			(uuid "96c7549f-bea0-45da-bc63-d4f4a91a4f23")
+		)
+		(pin "3"
+			(uuid "3d57c60a-61b8-4cee-9fc2-e445e22a068a")
+		)
+		(pin "2"
+			(uuid "77e78c93-c204-40f8-8d1d-87013870f12b")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "SW33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 269.24 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce297703-86ba-4232-b3e9-bf5fd125ef05")
+		(property "Reference" "D26"
+			(at 271.78 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 271.78 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 269.24 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 269.24 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 269.24 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 269.24 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 269.24 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e80b8bc-fc5c-46d5-91a0-41098ebf11fd")
+		)
+		(pin "2"
+			(uuid "f125d797-185e-420d-b139-7e2eb28c7e1f")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "D26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 107.95 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ceef4081-8ecd-418b-849b-c6ecea25f9b0")
+		(property "Reference" "D17"
+			(at 110.49 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 110.49 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 107.95 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 107.95 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 107.95 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 107.95 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 107.95 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f5d69a5-3ebc-46e6-9ac7-d5041c460498")
+		)
+		(pin "2"
+			(uuid "a2b690af-6558-4b2e-9eb0-3d93fac94af5")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 156.21 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d010d104-b1b4-4065-997a-7279cb4808dc")
+		(property "Reference" "D7"
+			(at 158.75 58.4199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 158.75 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 156.21 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 156.21 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 156.21 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 156.21 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 156.21 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b2b555b2-0b3d-41db-abe4-d5033f236e17")
+		)
+		(pin "2"
+			(uuid "3f52e6a9-af2e-4635-a3ba-cfdbe73e5796")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 208.28 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d01f572e-25fc-459d-85ef-81b501120832")
+		(property "Reference" "SW23"
+			(at 208.28 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "l"
+			(at 208.28 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 208.28 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 208.28 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6e5a1c1-0617-489a-a24d-d44e47a6ae8f")
+		)
+		(pin "4"
+			(uuid "62cdd41d-aff3-45ed-89ee-6fba27717e1e")
+		)
+		(pin "3"
+			(uuid "ba4d6d56-792d-4499-8206-869afabca785")
+		)
+		(pin "2"
+			(uuid "eb7f14c5-5393-4abe-8c6f-4a5c410f9199")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "SW23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 90.17 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d102d34a-5680-49cd-a478-0f24c466497a")
+		(property "Reference" "D39"
+			(at 92.71 111.7599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 92.71 114.2999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 90.17 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 90.17 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 90.17 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 90.17 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 90.17 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f5c2a43-a3ca-4864-9e87-f88117b547ff")
+		)
+		(pin "2"
+			(uuid "5f8fab89-a11d-412e-9802-08679d09fce9")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "D39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 168.91 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d155d4a4-d422-4113-956d-92c39dc1f86f")
+		(property "Reference" "SW8"
+			(at 168.91 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "u"
+			(at 168.91 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 168.91 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 168.91 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fdd1e0bd-f651-44e2-abc4-851cd9044d23")
+		)
+		(pin "4"
+			(uuid "e236442c-fce0-44ce-894c-71437a5157e9")
+		)
+		(pin "3"
+			(uuid "800b791e-20b8-4953-b4d3-6f7e0854cace")
+		)
+		(pin "2"
+			(uuid "76096e50-391b-40b4-8a32-145d6e968ec4")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 121.92 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2300cdd-ae7d-4776-97f2-5ea4b628d546")
+		(property "Reference" "D5"
+			(at 124.46 58.4199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 124.46 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 121.92 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 121.92 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 121.92 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 121.92 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 121.92 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7271c1c7-5cea-40af-b5d9-a915e947ec3b")
+		)
+		(pin "2"
+			(uuid "ca2bf24e-20a7-4cf1-898f-539e6547f526")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 116.84 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d34171e5-305e-4416-9311-ad5c949d3d4c")
+		(property "Reference" "D30"
+			(at 119.38 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 119.38 96.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 116.84 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 116.84 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 116.84 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 116.84 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 116.84 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a73e070a-9ca6-4768-a33d-705bd851c344")
+		)
+		(pin "2"
+			(uuid "7ff44765-b697-49e0-b37b-10ae1daf7875")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "D30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 68.58 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4e3ac35-d9df-4d9b-84b5-ed00c61ddfa4")
+		(property "Reference" "D2"
+			(at 71.12 58.4199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 71.12 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 68.58 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 68.58 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 68.58 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 68.58 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 68.58 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce4f96b5-6a7d-4fc1-b926-56f66c18c8b7")
+		)
+		(pin "2"
+			(uuid "31ba55f6-5d5f-49f9-a40f-dca2c90ca8a1")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 54.61 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6db5480-bfc1-43b3-91d0-389153f5fd56")
+		(property "Reference" "D27"
+			(at 57.15 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 57.15 96.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 54.61 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 54.61 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 54.61 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 54.61 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 54.61 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "707a14a4-0a71-4a1d-9ab0-8b1d3d327c39")
+		)
+		(pin "2"
+			(uuid "82c1127e-3b45-4f93-a00f-34fff5c18002")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "D27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 181.61 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7f40118-c889-444e-b7d0-34b1b34d8a5c")
+		(property "Reference" "SW34"
+			(at 181.61 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "m"
+			(at 181.61 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 181.61 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 181.61 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af829b46-92a5-4a13-b946-de2529ea58db")
+		)
+		(pin "4"
+			(uuid "5f702b30-1a7b-4790-be97-715adef929da")
+		)
+		(pin "3"
+			(uuid "bb2dca7b-cdf4-4f42-bae2-efcef074e2b7")
+		)
+		(pin "2"
+			(uuid "beb19599-c248-4a2b-b46b-1eea7ade9826")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "SW34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 46.99 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc349dc7-fc20-4363-8fd9-ac35bab19fc9")
+		(property "Reference" "SW14"
+			(at 46.99 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ALT"
+			(at 46.99 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 46.99 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 46.99 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f2ec7d2-82cc-4b7d-9bae-28d080799451")
+		)
+		(pin "4"
+			(uuid "8980ae2d-3b1e-49b3-8c32-c0eb85364a98")
+		)
+		(pin "3"
+			(uuid "53bee554-a837-4c69-b833-77bb327304fe")
+		)
+		(pin "2"
+			(uuid "134db8b2-380e-4cbc-affc-e3d578fffb64")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "SW14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 93.98 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ddd7fe8b-97ca-45b0-a204-623602a75ee6")
+		(property "Reference" "SW29"
+			(at 93.98 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "x"
+			(at 93.98 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 93.98 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 93.98 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1560b799-7000-4964-baf1-16cd17fa94f4")
+		)
+		(pin "4"
+			(uuid "257bb614-078a-48fa-b4ca-27b4bde401ca")
+		)
+		(pin "3"
+			(uuid "f43b12d7-5bdc-449a-9ff1-a10111a909fa")
+		)
+		(pin "2"
+			(uuid "9f67bdac-b970-4b9b-8908-e1ff73999bde")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "SW29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 138.43 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df0b6eb7-6d22-40df-86ac-b2b19872b6e4")
+		(property "Reference" "D6"
+			(at 140.97 58.4199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 140.97 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 138.43 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 138.43 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 138.43 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 138.43 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 138.43 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be5b198d-b245-41d0-9c68-4421f530a7be")
+		)
+		(pin "2"
+			(uuid "2d8972e1-4dc7-46c2-a60e-cff1479deb00")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 151.13 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e14bc971-9816-40be-a152-6b0849543c90")
+		(property "Reference" "SW7"
+			(at 151.13 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "y"
+			(at 151.13 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 151.13 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 151.13 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1715c864-b1ce-4a6b-80a7-a1e3267b2f5e")
+		)
+		(pin "4"
+			(uuid "4dd52f86-2e14-4e43-895f-be7582edce82")
+		)
+		(pin "3"
+			(uuid "8422771e-d06c-4e87-9ed3-e0eb450e5995")
+		)
+		(pin "2"
+			(uuid "bd9ba51e-6ead-4f54-98d2-3e6f6d117de7")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 242.57 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e286b837-9195-491a-8b52-610938b4e8a1")
+		(property "Reference" "SW25"
+			(at 242.57 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "'"
+			(at 242.57 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 242.57 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 242.57 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5eead4f6-4ccd-4f85-9b53-98d06feca12b")
+		)
+		(pin "4"
+			(uuid "727c919e-3612-4d5e-aaad-c8c266a18062")
+		)
+		(pin "3"
+			(uuid "4ac6fbb0-5a66-4f59-963d-b1aeca52e4ef")
+		)
+		(pin "2"
+			(uuid "c0f001c4-6277-492d-9b89-88b4efe1e0d0")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "SW25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 168.91 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e592b8a9-009d-4b56-9f23-94f94c2ac2a4")
+		(property "Reference" "D33"
+			(at 171.45 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 171.45 96.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 168.91 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 168.91 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 168.91 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 168.91 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 168.91 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "29b5cb2c-cb27-45e6-adb2-309cba782acf")
+		)
+		(pin "2"
+			(uuid "dbe2e3dd-739c-4065-8e67-a6d266ef6361")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "D33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 177.8 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7ac8745-238b-454a-a371-e68ece6a40e8")
+		(property "Reference" "D21"
+			(at 180.34 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 180.34 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 177.8 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 177.8 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 177.8 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 177.8 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 177.8 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7135bb0a-559d-43fb-9f77-2f086b270b17")
+		)
+		(pin "2"
+			(uuid "ed9d2271-7050-49f7-85af-90c17cdf0d42")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 238.76 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec2a71c7-7da9-42ca-a81b-1430ed5d218d")
+		(property "Reference" "SW12"
+			(at 238.76 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "["
+			(at 238.76 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 238.76 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 238.76 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52d06eb0-8871-45a1-af4a-7e013c6dddaf")
+		)
+		(pin "4"
+			(uuid "cd9e2ed3-0354-457e-9202-0d3f6360283c")
+		)
+		(pin "3"
+			(uuid "2f899495-4257-486f-83bf-28f3c284e07c")
+		)
+		(pin "2"
+			(uuid "fb0d73cd-6cf3-45f9-89e3-de9f377f5861")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "SW12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 104.14 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f057d8a9-f1d3-4084-80b3-debdf8d33013")
+		(property "Reference" "D4"
+			(at 106.68 58.4199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 106.68 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 104.14 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 104.14 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 104.14 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 104.14 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 104.14 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bbefec11-ec3c-4c01-ae23-0cec27b25769")
+		)
+		(pin "2"
+			(uuid "e83b2f24-7e05-4044-8747-2e618b05ad08")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 264.16 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f07f5820-f167-4f56-814a-a7cffee5d595")
+		(property "Reference" "D38"
+			(at 266.7 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 266.7 96.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 264.16 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 264.16 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 264.16 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 264.16 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 264.16 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eda9b13d-81cc-4c30-ae82-152cc7e33db9")
+		)
+		(pin "2"
+			(uuid "997c0b3e-73f3-4112-8b8b-95da9ec26bc8")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "D38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 238.76 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f3483876-1ce4-41b1-8061-55c6cdb3593e")
+		(property "Reference" "D37"
+			(at 241.3 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 241.3 96.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 238.76 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 238.76 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 238.76 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 238.76 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 238.76 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "acbdebe0-6855-48a6-9ea8-4c54e0d06eb1")
+		)
+		(pin "2"
+			(uuid "50203840-9af9-4294-b3e6-4783bf8c80e8")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "D37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 86.36 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6120934-b78d-4089-9305-173d3a6db0a9")
+		(property "Reference" "SW16"
+			(at 86.36 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "s"
+			(at 86.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 86.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 86.36 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0abd8f1-198b-461e-9da8-517ff239d05e")
+		)
+		(pin "4"
+			(uuid "51df1def-4d5a-45c6-a208-eac0094b614b")
+		)
+		(pin "3"
+			(uuid "9ede9ff7-9f06-4b24-819e-480421dd6b1a")
+		)
+		(pin "2"
+			(uuid "9c60d9b4-473f-4c96-8446-c79f9a2eec6b")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "SW16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 146.05 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f812dfcc-576c-40f4-ae50-ace5287c8197")
+		(property "Reference" "SW32"
+			(at 146.05 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "b"
+			(at 146.05 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 146.05 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 146.05 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36aae472-bfd4-48b1-87e1-87faca7fdb14")
+		)
+		(pin "4"
+			(uuid "4c5b2622-e39c-4bb2-805c-ecb1674fac7d")
+		)
+		(pin "3"
+			(uuid "26668da2-f57e-4ea5-8c79-17d08f437cbc")
+		)
+		(pin "2"
+			(uuid "92bd2240-1bf1-469c-a16b-4888823ef99d")
+		)
+		(instances
+			(project "snakey"
+				(path "/140ce0aa-a44a-4071-b927-30b7eb95c0a5/219a6cd3-0036-4c41-a32a-12d8f3b9b2d4"
+					(reference "SW32")
+					(unit 1)
+				)
 			)
 		)
 	)
