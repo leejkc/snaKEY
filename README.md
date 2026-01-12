@@ -2,9 +2,9 @@
 
 ### todo list:
 
-- pcb borders
-- lcd/oled display
-- plate/case (3d print or order cnc)
+1. pcb borders
+2. lcd/oled display
+3. plate/case (3d print or order cnc)
 
 ### 50%, staggered, wired only
 
