@@ -7,7 +7,6 @@
 - **41** switches
 - **3** 2u plate mount stabs
 - **1** 6.25u plate mount stab
-- **1** [short toggle switch](https://www.homedepot.ca/product/gardner-bender-short-bat-toggle-switch-6a-120vac-on-off-1-card/1000843175)
 - keycaps
 
 ### LAYOUT:
