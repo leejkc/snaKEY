@@ -1,6 +1,6 @@
 # snaKEY
 
-## todo list:
+### todo list:
 
 - pcb borders
 - lcd/oled display
@@ -20,4 +20,10 @@
 
 ![layout](keyboard-layout.png) 
 
-**enter key has to be the 2u numberpad one**
+note:**enter key has to be the 2u numberpad one**
+
+### KICAD PROTOTYPE PICTURES:
+
+![schema](keyboard-schematic.PNG)
+
+![pcb](keyboard-pcb.PNG)
