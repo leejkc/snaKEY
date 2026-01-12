@@ -20,7 +20,7 @@
 
 ![layout](keyboard-layout.png) 
 
-note:**enter key has to be the 2u numberpad one**
+note: **enter key has to be the 2u numberpad one**
 
 ### PROTOTYPE PICTURES:
 
