@@ -22,7 +22,7 @@
 
 note: **enter key has to be the 2u numberpad one**
 
-### PROTOTYPE PICTURES:
+### CAD DRAWINGS:
 
 ![schema](keyboard-schematic.PNG)
 
