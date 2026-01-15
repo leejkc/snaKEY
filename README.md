@@ -1,5 +1,3 @@
-# snaKEY
-
 ### todo list:
 
 1. pcb borders
